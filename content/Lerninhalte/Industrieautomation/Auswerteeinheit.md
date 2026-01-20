@@ -1,1 +1,0 @@
-Eine [[Auswerteeinheit]] ist ein Gerät oder eine Baugruppe, die [[elektrische Signale|Signale]] aus verschiedenen Sensoren, Schaltern oder Meldern empfängt und verarbeitet. Sie wertet diese [[elektrische Signale|Signale]] aus, interpretiert sie und sorgt dann für eine passende Reaktion, wie zum Beispiel eine Anzeige, einen Alarm oder das Auslösen weiterer Steuerbefehle.
