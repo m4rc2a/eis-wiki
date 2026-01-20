@@ -1,28 +1,31 @@
-# 🧊 wiki – Wissenssammlung zur Ausbildung
+---
+title: 🧊 Wiki
+---
 
-Dieses Wiki dient als zentrale Sammlung von Merkzetteln, Notizen und Praxistipps, die während der Ausbildung zum Elektroniker für Informations- und Systemtechnik (EIS) entstanden sind.  
-Es richtet sich an Auszubildende, Berufseinsteiger und alle, die sich effizient über die relevanten Themenbereiche informieren möchten.
+# Begriffserklärung
+Das 🧊 Wiki (oder auch EIS Wiki) ist eine Sammlung von Merkzetteln und Notizen die während der Ausbildung zum Elektroniker für Informations- und Systemtechnik (kuz EIS) entstanden sind.  
+Es richtet sich an EIS Azubis und alle die es mal werden wollen.
 
 ---
 
 ## Zweck und Nutzen
 
-- **Strukturierte Wissensbasis:**  
+- **Strukturierte Wissensbasis:**
   Alle wichtigen Themen, Begriffe und Arbeitsschritte werden übersichtlich zusammengefasst.
-- **Praxisnah:**  
-  Die Inhalte basieren auf realen Erfahrungen und Prüfungsrelevanz.
 - **Schneller Zugriff:**  
-  Über die Suchfunktion und die zahlreichen Querverlinkungen sind Informationen rasch auffindbar.
+  Über die Suchfunktion und die zahlreichen Verlinkungen sind Informationen schnell auffindbar.
 - **Erweiterbarkeit:**  
-  Das Wiki ist offen dafür, kontinuierlich ergänzt oder den eigenen Bedürfnissen angepasst zu werden.
+  Das Wiki ist offen dafür und soll auch, kontinuierlich auch von anderen Azubis ergänzt oder den eigenen Bedürfnissen angepasst werden.
 
 ---
 
 ## Bedienung
 
 - **Interne Links** verbinden verwandte Themen und ermöglichen gezieltes Navigieren.
-- Über die **Suchfunktion** kann spezifisch nach Inhalten gesucht werden.
-- Die Notizen und Seiten können beliebig angepasst oder erweitert werden.
+- Auf der linken gibt es (über die drei Striche einblendbar) den Explorer.
+	-> Über diesen lassen sich Themengebiete einfach suchen
+- Über die **Suchfunktion** kann auch spezifisch nach bestimmten Inhalten gesucht werden.
+- Die Notizen und Seiten können beliebig nach Einweisung angepasst oder erweitert werden.
 
 ---
 
@@ -38,7 +41,3 @@ Die Graph-Ansicht visualisiert die Verbindungen zwischen den einzelnen Notizen u
   Offene oder weniger vernetzte Themenbereiche lassen sich leicht identifizieren und gezielt ergänzen.
 
 > Die Graph-Ansicht ist über das entsprechende Icon in Obsidian am Rand der Anwendung erreichbar.
-
----
-
-Diese Wissenssammlung erleichtert die Orientierung im komplexen Themenfeld der Informations- und Systemtechnik und unterstützt gezieltes sowie vernetztes Lernen.
