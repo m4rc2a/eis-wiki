@@ -1,0 +1,16 @@
+pipeline:
+  render:
+    image: python:3.12
+    when:
+      branch: main
+    commands:
+      - git config --global user.email "ci@codeberg.org"
+      - git config --global user.name "Codeberg CI"
+      - git fetch origin
+      - git checkout -B rendered origin/main
+
+      - python circuitjs2url.py .
+
+      - git add .
+      - git commit -m "Auto-rewrite circuitjs blocks ${CI_COMMIT_SHA}" || echo "No changes"
+      - git push origin rendered --force
