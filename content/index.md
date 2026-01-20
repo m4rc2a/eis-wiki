@@ -1,8 +1,8 @@
 ---
-title: 🧊 Wiki
+title: EIS Wiki
 ---
 # Begriffserklärung
-Das 🧊 Wiki (oder auch EIS Wiki) ist eine Sammlung von Merkzetteln und Notizen die während der Ausbildung zum Elektroniker für Informations- und Systemtechnik (kuz EIS) entstanden sind.  
+Das **EIS Wiki** ist eine Sammlung von Merkzetteln und Notizen die während der Ausbildung zum Elektroniker für Informations- und Systemtechnik (kuz EIS) entstanden sind.  
 Es richtet sich an EIS Azubis und alle die es mal werden wollen.
 
 ---
