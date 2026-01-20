@@ -1,5 +1,5 @@
 # Begriffserklärung
-**Spannungsebenen** sind unterschiedliche elektrische Spannungsbereiche, die im Stromnetz verwendet werden.
+**[[Spannungsebenen]]** sind unterschiedliche elektrische Spannungsbereiche, die im Stromnetz verwendet werden.
 # Höchstspannung
 **380 kV**: Braunkohle- & Kernkraftwerke
 **220 kV**: Steinkohle- und Wasserkraftwerke

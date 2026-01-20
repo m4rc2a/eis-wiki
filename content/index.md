@@ -1,14 +1,13 @@
 ---
 title: 🧊 Wiki
 ---
-
 # Begriffserklärung
 Das 🧊 Wiki (oder auch EIS Wiki) ist eine Sammlung von Merkzetteln und Notizen die während der Ausbildung zum Elektroniker für Informations- und Systemtechnik (kuz EIS) entstanden sind.  
 Es richtet sich an EIS Azubis und alle die es mal werden wollen.
 
 ---
 
-## Zweck und Nutzen
+# Zweck und Nutzen
 
 - **Strukturierte Wissensbasis:**
   Alle wichtigen Themen, Begriffe und Arbeitsschritte werden übersichtlich zusammengefasst.
@@ -19,7 +18,7 @@ Es richtet sich an EIS Azubis und alle die es mal werden wollen.
 
 ---
 
-## Bedienung
+# Bedienung
 
 - **Interne Links** verbinden verwandte Themen und ermöglichen gezieltes Navigieren.
 - Auf der linken gibt es (über die drei Striche einblendbar) den Explorer.
@@ -29,7 +28,7 @@ Es richtet sich an EIS Azubis und alle die es mal werden wollen.
 
 ---
 
-## Besonderheit: Die Graph-Ansicht
+# Besonderheit: Die Graph-Ansicht
 
 Die Graph-Ansicht visualisiert die Verbindungen zwischen den einzelnen Notizen und bietet folgende Vorteile:
 
@@ -41,3 +40,10 @@ Die Graph-Ansicht visualisiert die Verbindungen zwischen den einzelnen Notizen u
   Offene oder weniger vernetzte Themenbereiche lassen sich leicht identifizieren und gezielt ergänzen.
 
 > Die Graph-Ansicht ist über das entsprechende Icon in Obsidian am Rand der Anwendung erreichbar.
+# Aktuelle Themen
+Aktuelle Themen sind:
+- [[Abschlussprüfung Teil 1]]
+	- [[PÜS]]
+- Vom Englischunterricht:
+	- [[PCs|Computer]]
+	- [[INEAC]]

@@ -4,7 +4,7 @@ aliases:
   - Tiefpassfilter
   - Tiefpass
 ---
--> pulsierende Gleichspannung wird stabilisiert
+-> pulsierende [[Gleichspannung]] wird stabilisiert
 - beschaltung mit RC glied pendelt sich das 
 - [[Integrierglied]]
 - duty cycle?

@@ -35,9 +35,9 @@ Die Anlage Verfügt über unterschiedliche [[PÜS#Betriebszustände|Betriebszust
 # Funktionsweise
 Die Abtastung und Bewertung der [[Störmeldegruppe|Störmeldegruppen]] erfolge durch eine Zeitmultiplexsteuerung.
 Jede [[Störmeldelinie]] der PÜS-Baugruppe wird dabei einzeln auf ihren [[#Betriebszustände|Betriebszustand]] abgefragt.
-# Auswerteeinheit
+# [[Auswerteeinheit]]
 Die Anlage Verfügt über eine e
-Die Zuleitungen zur Auswerteeinheit sind zusätzlich zum eigentlichen Störungsalarmkriterium auf Drahtbruch überwacht.
+Die Zuleitungen zur [[Auswerteeinheit]] sind zusätzlich zum eigentlichen Störungsalarmkriterium auf Drahtbruch überwacht.
 # Bauteile
 ## Mikrocontroller
 Die Anlage verwenden den [[ATmega328P]] als Mikrocontroller, welcher mit seinem eigenen Systemtakt von Mikrocontroller $8\,\mathrm{MHz}$ arbeitet.
