@@ -43,7 +43,7 @@ Die Graph-Ansicht visualisiert die Verbindungen zwischen den einzelnen Notizen u
 # Aktuelle Themen
 Aktuelle Themen sind:
 - [[Abschlussprüfung Teil 1]]
-	-> [[PÜS]]
+	-> [[Baugruppe-PÜS]]
 - Vom Englischunterricht:
 	- [[PCs|Computer]]
 	- [[INEAC]]

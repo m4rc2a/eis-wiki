@@ -1,4 +1,4 @@
-Die [[PÜS]] (kurz für Prozessüberwachung Störmelder-Baugruppe) ist eine Baugruppe der [[Abschlussprüfung Teil 1|ApT-1]] vom Herbst 2024 und dient der Auswertung von bis zu vier primärleitungsüberwachten [[Störmeldegruppe|Störmeldegruppen]] im Bereich Klima/Temperatursteuerung.
+Die [[Baugruppe-PÜS]] (kurz für Prozessüberwachung Störmelder-Baugruppe) ist eine Baugruppe der [[Abschlussprüfung Teil 1|ApT-1]] vom Herbst 2024 und dient der Auswertung von bis zu vier primärleitungsüberwachten [[Störmeldegruppe|Störmeldegruppen]] im Bereich Klima/Temperatursteuerung.
 
 # Einsetzbarkeit
 Einsetzbar ist das System zur Überwachung von [[Störmeldungen]] in den Bereichen:
@@ -28,7 +28,7 @@ In der Simulation können unterschiedliche [[Meldeleitungen]] und die folgenden 
 - Störung
 
 # Betriebszustände
-Die Anlage Verfügt über unterschiedliche [[PÜS#Betriebszustände|Betriebszustände]] die da wären:
+Die Anlage Verfügt über unterschiedliche [[Baugruppe-PÜS#Betriebszustände|Betriebszustände]] die da wären:
 - Ruhe
 - Alarm
 - Störung
@@ -38,7 +38,7 @@ Die Abtastung und Bewertung der [[Störmeldegruppe|Störmeldegruppen]] erfolget 
 Jede [[Störmeldelinie]] der PÜS-Baugruppe wird dabei einzeln auf ihren [[#Betriebszustände|Betriebszustand]] abgefragt
 Während der Zeit des [[Adressierungszeitschlitz|Adressierungszeitschlitzes]] gelangt der analoge Messwert der [[Störmeldegruppe]] über den jeweils adressierten [[Analogschalter]] auf die nachgeschaltete [[Komparator|]] mit `-K7.2`, `-K7.3` und `-K7.4`.
 # [[Auswerteeinheit]]
-Die [[PÜS]] Anlage Verfügt über eine eigene [[Auswerteeinheit]].
+Die [[Baugruppe-PÜS]] Anlage Verfügt über eine eigene [[Auswerteeinheit]].
 Die Zuleitungen zur [[Auswerteeinheit]] sind zusätzlich zum eigentlichen Störungsalarmkriterium auf Drahtbruch überwacht.
 # Bauteile
 ## Mikrocontroller
