@@ -4,7 +4,7 @@ aliases:
 # Begriffserklärung
 Ein **[[Thermistor]]** ist ein [[Widerstandstemperatursensor]], der aus einem **Halbleitermaterial** besteht.
 # Funktionsweise
-Der [[Widerstand]] ändert sich nicht linear zur Temperatur
+Der [[Widerstandswert]] ändert sich nicht linear zur Temperatur
 # Varianten
 Thermistoren unterteilen sich in ihren Temperaturverhalten in zwei Gruppen:
 - [[Heißleiter]] (_**N**egative **T**emperature **C**oefficient_ kurz **[[Heißleiter|NTC]]**)

@@ -11,7 +11,7 @@ Das [[Widerstandstemperatursensor|RTD]] (Resistance Temperature Device) Interfac
 | konstanter [[PT100#Parameter\|Messstrom des PT100]] ($I_\text{Messung}$) ^Messstrom | $1\,\mathrm{mA}$ |
 # Parameter
 # Messprinzip
-Das [[#RTD Interface|Interface]] misst den Temperaturabhängigen [[Widerstand]] des [[#PT100|Sensors]], indem es einen [[#^Messstrom|konstanten Messstrom]] ($1\,\mathrm{mA}$) durch den [[#PT100|Sensor]] sendet. Die resultierende Spannungsänderung ist:
+Das [[#RTD Interface|Interface]] misst den Temperaturabhängigen [[Widerstandswert]] des [[#PT100|Sensors]], indem es einen [[#^Messstrom|konstanten Messstrom]] ($1\,\mathrm{mA}$) durch den [[#PT100|Sensor]] sendet. Die resultierende Spannungsänderung ist:
 $$
 \Delta U = \Delta R \times I
 $$
@@ -25,7 +25,7 @@ Der [[Koeffizient]] beträgt $10\,\mathrm{mV/K}$, das heißt jede Temperaturänd
 # Messverfahren
 Für die Messung wird ein [[Baugruppen-Analyse#PT100|PT100]] verwendet.
 
-- Das Messverfahren basiert auf dem Prinzip des Spannungsfalls an einem [[Widerstand]]
+- Das Messverfahren basiert auf dem Prinzip des Spannungsfalls an einem [[Widerstandswert]]
 - Widerstandsänderung $\Delta R$ ist proportional zu Spannungsänderung $\Delta U$ 
 	-> $\Delta R \propto \Delta U$
 	-> $\Delta U = \Delta R \times I$

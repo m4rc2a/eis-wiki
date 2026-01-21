@@ -2,6 +2,7 @@
 aliases:
   - elektrischer Strom
   - Stromfluss
+  - elektrischen Stromfluss
 ---
 # Begriffserklärung
 **[[Strom]]** beschreibt den Fluss elektrischer Ladungen (Elektronen), durch einen Leiter (zB. Kabel).
