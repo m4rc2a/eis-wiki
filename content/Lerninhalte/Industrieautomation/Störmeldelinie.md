@@ -1,6 +1,7 @@
 ---
 aliases:
   - Störmeldelinien
+  - Meldelinien
 ---
 
 # Begriffserklärung

@@ -12,7 +12,7 @@ Einsetzbar ist das System zur Überwachung von [[Störmeldungen]] in den Bereich
 ## Voraussetzungen
 1. Zu überwachende Geräte müssen über ein [[Potentialfreie Kontakte|potentialfreien]] [[Störmeldekontakt]] verfügen
 ## Anschlüsse
-Die [[Meldeleitungen]] der PÜS-Baugruppe werden an der Stiftleiste `-X2` angeschlossen.
+Die [[Störmeldelinie|Meldelinien]] der PÜS-Baugruppe werden an der Stiftleiste `-X2` angeschlossen.
 # Simulation
 Die Anlage verfügt über eine Funktion zur Simulation des Betriebes und von unterschiedlichen Fehler
 ## Voraussetzungen 
@@ -36,7 +36,7 @@ Die Anlage Verfügt über unterschiedliche [[PÜS#Betriebszustände|Betriebszust
 Die Abtastung und Bewertung der [[Störmeldegruppe|Störmeldegruppen]] erfolge durch eine Zeitmultiplexsteuerung.
 Jede [[Störmeldelinie]] der PÜS-Baugruppe wird dabei einzeln auf ihren [[#Betriebszustände|Betriebszustand]] abgefragt.
 # [[Auswerteeinheit]]
-Die Anlage Verfügt über eine e
+Die [[PÜS]] Anlage Verfügt über eine eigene [[Auswerteeinheit]].
 Die Zuleitungen zur [[Auswerteeinheit]] sind zusätzlich zum eigentlichen Störungsalarmkriterium auf Drahtbruch überwacht.
 # Bauteile
 ## Mikrocontroller
@@ -45,18 +45,33 @@ Er steuert u. A. als Zähler den 1-aus-4-Decoderbaustein.
 ## Benutzerschnittstelle
 ### Leuchtdioden
 
-| Bauteilbezeichnung | Bedeutung                   |
-| ------------------ | --------------------------- |
-| `-P5`              | [[Summe Störung]]           |
-| `-P6`              | [[Oberlast-Störungsmelder]] |
+| Bauteilbezeichnung | Bedeutung                                 |
+| ------------------ | ----------------------------------------- |
+| `-P1`              | [[Störmeldelinie|Meldelinie]] 1 betroffen |
+| `-P2`              | [[Störmeldelinie|Meldelinie]] 2 betroffen |
+| `-P3`              | [[Störmeldelinie|Meldelinie]] 3 betroffen |
+| `-P4`              | [[Störmeldelinie|Meldelinie]] 4 betroffen |
+| `-P5`              | [[Summe Störung]]                         |
+| `-P6`              | [[Oberlast-Störungsmelder]] Alarm         |
+| `-P7`              | eine Störung                              |
+| `-P8`              | störungsfreier Betrieb                    |
+
+### Tasten
+
+| Bauteilbezeichnung | Bedeutung                                          |
+| ------------------ | -------------------------------------------------- |
+| `-S1`              | Simulation eines Drahtbruches auf Störmeldelinie A |
+| `-S2`              | Simulation eines Alarms                            |
+| `-S3`              | Simulation eines Drahtbruches auf Störmeldelinie B |
+| `-S4`              | Simulation eines Alarms                            |
+| `-S5`              | Simulation eines Drahtbruches auf Störmeldelinie C |
+| `-S6`              | Simulation eines Alarms                            |
+| `-S7`              | Simulation eines Drahtbruches auf Störmeldelinie D |
+| `-S8`              | Simulation eines Alarms                            |
+
 # Funktionsbeschreibung
-Die Meldelinien der PÜS-Baugruppe werden an der Stiftleiste -X2 angeschlossen.
-Die Leuchtdioden -P1 bis -P4 auf der Frontplatine zeigen die betroffenen Meldelinien (-P1 Linie A bis -P4 Linie D)
-an. Die LED -P6 dient zur Anzeige eines Alarms, -P7 signalisiert eine Störung und -P8 zeigt einen störungsfreien
-Betrieb (Ruhe) an. Zur Simulation der Funktion müssen die Jumper -XJ3 bis -XJ6 geschlossen werden.
-Die obere Tastenreihe in der Frontplatine (-S1: Linie A, -S3: Linie B, -S5: Linie C und -S7: Linie D) dient dazu, eine
-Störung (Drahtbruch) zu simulieren. Die untere Tastenreihe (-S2, -S4, -S6 und -S8) wird für die Simulation eines
-Alarms benötigt. An den Messpunkten -MP3 bis -MP6 kann für die verschiedenen Zustände die jeweilige Eingangs-
+
+An den Messpunkten -MP3 bis -MP6 kann für die verschiedenen Zustände die jeweilige Eingangs-
 spannung ermittelt werden. Während des multiplexgesteuerten Adressierungszeitschlitzes gelangt der analoge
 Messwert der [[Störmeldegruppe]] über den jeweilig adressierten Analogschalter auf die nachgeschaltete Komparator-
 stufe mit -K7.2, -K7.3 und -K7.4. Dort werden die gemessenen Spannungen mit fest vorgegebenen Referenzspan-
