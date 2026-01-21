@@ -38,7 +38,7 @@ In einer Leittechnik-Anwendung gibt es mehrere Pumpen, jede sendet eigene [[Stö
 
 ### Siemens-spezifisch:
 
-In Siemens-Systemen (z.B. SIMATIC [[PCS]] 7, S7 oder WinCC) werden Störmeldegruppen genutzt, um die Anzahl der angezeigten Meldungen zu reduzieren und das Meldemanagement übersichtlicher zu gestalten.
+In Siemens-Systemen (z.B. SIMATIC [[PCs]] 7, S7 oder WinCC) werden Störmeldegruppen genutzt, um die Anzahl der angezeigten Meldungen zu reduzieren und das Meldemanagement übersichtlicher zu gestalten.
 
 ---
 
