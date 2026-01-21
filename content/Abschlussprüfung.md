@@ -5,7 +5,7 @@ aliases:
   - Abschlussprüfungen
 ---
 # Begriffserklärung
-Die [[Abschlussprüfung]] der Ausbildung [EIS](https://www.ihk.de/braunschweig/aus-und-weiterbildung/ausbildung/berufe-a-z/elektroniker-fuer-informations-und-systemtechnik-4116526) ist eine wird von der [IHK](https://de.wikipedia.org/wiki/Industrie-_und_Handelskammer) bereitgestellte [Facharbeiterprüfung](https://de.wikipedia.org/wiki/Abschlusspr%C3%BCfung_(Berufsausbildung)).
+Die [[Abschlussprüfung]] der Ausbildung [EIS](https://www.ihk.de/braunschweig/aus-und-weiterbildung/ausbildung/berufe-a-z/elektroniker-fuer-informations-und-systemtechnik-4116526) ist eine [Facharbeiterprüfung](https://de.wikipedia.org/wiki/Abschlusspr%C3%BCfung_(Berufsausbildung)) und wird von der [IHK](https://de.wikipedia.org/wiki/Industrie-_und_Handelskammer) bereitgestellt.
 
 Die [[Abschlussprüfung]] unterteilt sich ein zwei Teile:
 - [[Abschlussprüfung Teil 1]]
