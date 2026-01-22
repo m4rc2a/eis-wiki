@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"039474b0e8c7e72f","type":"text","text":"Transistoren\n","x":-240,"y":320,"width":140,"height":50},
+		{"id":"32279dc9b7f6c52a","type":"text","text":"BJT","x":-402,"y":460,"width":80,"height":50},
+		{"id":"d3e7a1ab14ddf00e","type":"text","text":"FET","x":-15,"y":460,"width":80,"height":50},
+		{"id":"09239d215cb871fc","type":"text","text":"PNP","x":-322,"y":580,"width":82,"height":50},
+		{"id":"4ca99e5147f0857d","type":"text","text":"NPN","x":-482,"y":580,"width":80,"height":50},
+		{"id":"7bcaff996f9697c3","type":"text","text":"MOSFET","x":65,"y":580,"width":120,"height":50},
+		{"id":"b5d79e12a2f47c87","type":"text","text":"JFET","x":-100,"y":580,"width":85,"height":50},
+		{"id":"648d42ca0b8809ac","type":"text","text":"En","x":-75,"y":320,"width":200,"height":50}
+	],
+	"edges":[
+		{"id":"823cbb5d4eafa093","fromNode":"039474b0e8c7e72f","fromSide":"bottom","toNode":"32279dc9b7f6c52a","toSide":"top","toEnd":"none"},
+		{"id":"b2b2f4f92b85c891","fromNode":"039474b0e8c7e72f","fromSide":"bottom","toNode":"d3e7a1ab14ddf00e","toSide":"top","toEnd":"none"},
+		{"id":"ebf736ed9ea76010","fromNode":"32279dc9b7f6c52a","fromSide":"bottom","toNode":"4ca99e5147f0857d","toSide":"top","toEnd":"none"},
+		{"id":"e74bf17b9f608301","fromNode":"32279dc9b7f6c52a","fromSide":"bottom","toNode":"09239d215cb871fc","toSide":"top","toEnd":"none"},
+		{"id":"c61a4090e1cf5ea1","fromNode":"d3e7a1ab14ddf00e","fromSide":"bottom","toNode":"b5d79e12a2f47c87","toSide":"top","toEnd":"none"},
+		{"id":"439e298f91da9f5a","fromNode":"d3e7a1ab14ddf00e","fromSide":"bottom","toNode":"7bcaff996f9697c3","toSide":"top","toEnd":"none"}
+	]
+}

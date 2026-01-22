@@ -11,7 +11,7 @@ aliases:
   - Ohm'schen Widerstand
 ---
 # Begriffserklärung
-Der [[Widerstandswert]] ist eine Basisgröße und beschreibt wie gut ein Material oder Bauteil ist, ein [[Strom|elektrischen Stromfluss]] zu behindern.
+Der **Widerstandswert** ist eine Basisgröße und beschreibt wie gut ein Material oder Bauteil ist, ein [[Strom|elektrischen Stromfluss]] zu behindern.
 # typische Variablen
 
 | Variablennamen | Beschreibung                            |
