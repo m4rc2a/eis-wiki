@@ -16,4 +16,8 @@ Tatsächlich gibt es eine ganze Wissenschaft, die sich mit diesem Thema beschäf
 Wenn du passende Lernmethoden gefunden hast, die für dich funktionieren, stehst du früher oder später vor der nächsten Herausforderung:
 -> Dein Wissen an andere weiterzugeben.  
 
-Vielleicht merkt man dann aber auch, dass es gar nicht so leicht ist, komplexe Inhalte verständlich zu erklären, obwohl du sagst dass du  selbst verstanden hast.
+Vielleicht merkt man dann aber auch, dass es gar nicht so leicht ist, komplexe Inhalte verständlich rüber zu bringen, auch wenn du das Thema eigentlich richtig verstanden hast.
+
+>[!quote] Zitat
+>Wenn Sie es einem Sechsjährigen nicht erklären können, verstehen Sie es nicht selbst  
+\- Albert Einstein (Quelle nicht bekannt)

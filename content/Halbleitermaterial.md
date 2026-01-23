@@ -1,2 +1,7 @@
+---
+aliases:
+  - Halbleitermaterials
+---
+
 # Begriffserklärung
 **Halbleiter** sind Materialien, deren elektrische Leitfähigkeit zwischen der von Leitern (wie Kupfer) und Nichtleitern (wie Glas) liegt. Am bekanntesten ist das Material **[Silizium](https://de.wikipedia.org/wiki/Silicium)**.

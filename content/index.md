@@ -43,7 +43,11 @@ Die Graph-Ansicht visualisiert die Verbindungen zwischen den einzelnen Notizen u
 # Aktuelle Themen
 Aktuelle Themen sind:
 - [[Abschlussprüfung Teil 1]]
-	-> [[Baugruppe-PÜS]]
+	-> [[Wetterstation]]
 - Vom Englischunterricht:
 	- [[PCs|Computer]]
 	- [[INEAC]]
+# TODOs:
+- latch flipflop
+- HCT vs TTL
+- Ordner für ApT1s richtig benennen 
