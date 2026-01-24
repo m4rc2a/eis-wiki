@@ -3,7 +3,7 @@ aliases:
   - dotierten
 ---
 # Begriffserklärung
-**Dotierung** bezeichnet in der Halbleitertechnik das gezielte Einbringen von sehr kleinen Mengen („Spurenelementen“) bestimmter Fremdatome in ein reines [[Halbleitermaterial]] – meist Silizium. Durch Dotierung werden die elektrischen Eigenschaften des Halbleiters gezielt verändert und gesteuert.
+**Dotierung** bezeichnet in der Halbleitertechnik das gezielte Einbringen von sehr kleinen Mengen („[[Spurenelementen]]“) bestimmter Fremdatome in ein reines [[Halbleitermaterial]] – meist Silizium. Durch Dotierung werden die elektrischen Eigenschaften des Halbleiters gezielt verändert und gesteuert.
 
 ## Zweck der Dotierung
 

@@ -1,5 +1,5 @@
 # Begriffserklärung
-Der **[[ATmega328P]]** ist ein Mikrocontroller aus der AVR-Familie von **Microchip Technology** (früher Atmel).
+Der **ATmega328P** ist ein Mikrocontroller aus der AVR-Familie von **Microchip Technology** (früher Atmel).
 Er ist besonders bekannt, weil er im **Arduino Uno** Board verwendet wird.
 # Eigenschaften
 

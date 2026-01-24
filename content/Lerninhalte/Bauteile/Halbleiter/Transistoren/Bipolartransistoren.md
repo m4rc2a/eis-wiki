@@ -10,8 +10,8 @@ Ein **Bipolartransistor** (auch **BJT** kurz für: _bipolar junction transistor
 Ein **Bipolartransistor** (auch **BJT** für _bipolar junction transistor_) ist ein [[Transistoren|Transistor]], der aus drei Schichten unterschiedlich [[Dotierung|dotierten]] [[Halbleitermaterial]]s besteht.
 ## Unterscheidung
 Es gibt zwei Typen von **BJTs**:
-- NPN-Transistoren
-- PNP-Transistoren
+- [[NPN-Transistoren]]
+- [[PNP-Transistoren]]
 
 > [!Tipp] Schichten-Reihenfolge erkennen
 > Die Reihenfolge der Halbleiterschichten lässt sich direkt am Namen ablesen:  

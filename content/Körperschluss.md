@@ -3,4 +3,4 @@ aliases:
   - Körperschlusses
 ---
 # Begriffserklärung
-Ein **[[Körperschluss]]** ist eine leitende Verbindung zwischen Körper und aktiven Teilen elektrischer Betriebsmittel.
+Ein **Körperschluss** ist eine leitende Verbindung zwischen Körper und aktiven Teilen elektrischer Betriebsmittel.

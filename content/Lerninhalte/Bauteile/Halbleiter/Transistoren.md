@@ -9,7 +9,7 @@ Ein Transistor ist ein [[Halbleiter]] zum Steuern aber auch zum Verstärken von 
 > Der Begriff **Transistor** kommt aus dem englischen und setzt sich zusammen aus: **trans**fer res**istor**
 
 Es gibt zwei Typen von **Transistoren**:
-- [[Bipolartransistoren|Bipolartransistoren]]
+- [[Bipolartransistoren]]
 - [[Feldeffekttransistoren]]
 
 > [!todo] **TODO**:

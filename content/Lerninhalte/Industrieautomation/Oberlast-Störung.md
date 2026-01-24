@@ -5,7 +5,7 @@ aliases:
   - Oberlaststörungen
 ---
 # Begriffserklärung
-Eine **[[Oberlast-Störung]]** bedeutet, dass ein technisches Gerät oder ein System stärker beansprucht wird, als es zulässig oder sicher wäre. Das heißt, es wird eine Grenze überschritten, für die das Gerät nicht ausgelegt ist – zum Beispiel:
+Eine **Oberlast-Störung** bedeutet, dass ein technisches Gerät oder ein System stärker beansprucht wird, als es zulässig oder sicher wäre. Das heißt, es wird eine Grenze überschritten, für die das Gerät nicht ausgelegt ist – zum Beispiel:
 
 - **Elektrisch:** Zu hoher [[Strom]] fließt durch einen Motor oder eine Leitung (Überstrom)
 - **Mechanisch:** Zu große Kraft wirkt auf einen Antrieb, eine Welle oder ein Lager

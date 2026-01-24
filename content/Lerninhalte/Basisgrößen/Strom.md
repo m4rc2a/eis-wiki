@@ -7,7 +7,7 @@ aliases:
   - elektrischen Strom
 ---
 # Begriffserklärung
-**[[Strom]]** beschreibt den Fluss elektrischer Ladungen (Elektronen), durch einen Leiter (zB. Kabel).
+**Strom** beschreibt den Fluss elektrischer Ladungen (Elektronen), durch einen Leiter (zB. Kabel).
 # typische Variablen
 
 | Variablennamen | Beschreibung           |
@@ -31,5 +31,5 @@ $$ I = \frac{Q}{t} $$
 - ($Q$): transportierte elektrische Ladung (in [[Coulomb]])
 - ($t$): Zeit, in der die Ladung transportiert wird (in Sekunden)
 
-# Wie entsteht [[Strom]]?
+# Wie entsteht Strom?
 [[Strom]] entsteht, wenn eine Spannungsquelle (wie eine Batterie oder Steckdose) an einen elektrischen Leiter angelegt wird. Dadurch werden die Elektronen in Bewegung versetzt.

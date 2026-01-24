@@ -1,11 +1,8 @@
 ---
 title: EIS Wiki
 ---
-# Begriffserklärung
 Das **EIS Wiki** ist eine Sammlung von Merkzetteln und Notizen die während der Ausbildung zum Elektroniker für Informations- und Systemtechnik (kuz EIS) entstanden sind.  
 Es richtet sich an EIS Azubis und alle die es mal werden wollen.
-
----
 
 # Zweck und Nutzen
 
@@ -16,8 +13,6 @@ Es richtet sich an EIS Azubis und alle die es mal werden wollen.
 - **Erweiterbarkeit:**  
   Das Wiki ist offen dafür und soll auch, kontinuierlich auch von anderen Azubis ergänzt oder den eigenen Bedürfnissen angepasst werden.
 
----
-
 # Bedienung
 
 - **Interne Links** verbinden verwandte Themen und ermöglichen gezieltes Navigieren.
@@ -25,8 +20,6 @@ Es richtet sich an EIS Azubis und alle die es mal werden wollen.
 	-> Über diesen lassen sich Themengebiete einfach suchen
 - Über die **Suchfunktion** kann auch spezifisch nach bestimmten Inhalten gesucht werden.
 - Die Notizen und Seiten können beliebig nach Einweisung angepasst oder erweitert werden.
-
----
 
 # Besonderheit: Die Graph-Ansicht
 
@@ -47,7 +40,16 @@ Aktuelle Themen sind:
 - Vom Englischunterricht:
 	- [[PCs|Computer]]
 	- [[INEAC]]
+
 # TODOs:
-- latch flipflop
-- HCT vs TTL
-- Ordner für ApT1s richtig benennen 
+- [ ] latch flipflop
+- [ ] HCT vs TTL
+- [ ] Ordner für ApT1s richtig benennen 
+- [ ] ab wann Schutz klein Spannung
+- [ ] bei dem Kondensator geht der [[Strom]] vor bei der Induktivität kommt die [[Strom]] zu spät
+- [ ] flip flop -> bistabile Kipstufe
+- [ ] Softwarearten (Branchensoftware, Standardsoftware und so)
+- [ ] USB Typ-A 1.0 Standard vereinfacht
+- [ ] ip addrs und oktette
+- [ ] USB standart
+- [ ] Buck / Boost converter

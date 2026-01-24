@@ -12,13 +12,13 @@ aliases:
 # Begriffserklärung
 Ein **potenzialfreier Kontakt** ist wie ein ganz normaler Schalter (z.B. durch ein Relais), der **nichts mit dem [[Strom]] aus dem Gerät zu tun hat**.
 Ein potenzialfreier Kontakt ist galvanisch getrennt zu dem angeschlossenen Stromkreis.
-## Warum ermöglichen Transistoren keine potenzialfreie Schaltung?
-Ein Transistor besitzt nur 3 Kontakte.
+## Warum ermöglichen [[Transistoren]] keine potenzialfreie Schaltung?
+Ein [[Transistoren|Transistor]] besitzt nur 3 Kontakte.
 Am Beispiels eines Bipolartransistors:
 - Kollektor (C)
 - Basis (B)
 - Emitter (E)
--> GND kann nicht mit nur ein Transistor getrennt werden
+-> GND kann nicht mit nur ein [[Transistoren|Transistor]] getrennt werden
 
 ```circuitjs
 $ 1 0.0000049999999999999996 3.9121283998153213 55 5 50 5e-11

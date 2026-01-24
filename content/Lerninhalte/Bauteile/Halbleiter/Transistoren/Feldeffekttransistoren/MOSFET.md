@@ -1,12 +1,12 @@
 # Begriffserklärung
 Der **MOSFET (Metall-Oxid-Halbleiter-Feldeffekttransistor)** ist der meistverwendete FET-Typ und ein Grundbaustein aller modernen Computerchips.
 # Aufbau
-- **Source (S):** Eingang für den Strom
-- **Drain (D):** Ausgang für den Strom
+- **Source (S):** Eingang für den [[Strom]]
+- **Drain (D):** Ausgang für den [[Strom]]
 - **Gate (G):** Steueranschluss, durch eine dünne Oxidschicht vom Kanal getrennt
 
 # Funktionsweise
-Das Gate ist isoliert (meist durch Siliziumdioxid). Wird eine Spannung am Gate angelegt, bildet sich im Halbleiter ein leitender Kanal zwischen Source und Drain. Der Hauptvorteil: Am Gate fließt praktisch kein Strom – ideal für schnelle, stromsparende Schaltungen!
+Das Gate ist isoliert (meist durch Siliziumdioxid). Wird eine Spannung am Gate angelegt, bildet sich im [[Halbleiter]] ein leitender Kanal zwischen Source und Drain. Der Hauptvorteil: Am Gate fließt praktisch kein [[Strom]] – ideal für schnelle, stromsparende Schaltungen!
 
 > [!Merke]
 > MOSFETs sind die Grundlage für digitale Elektronik – von Speicher, Logikbausteinen bis hin zu Prozessoren.
