@@ -42,7 +42,7 @@ Aktuelle Themen sind:
 	- [[INEAC]]
 
 # TODOs:
-- [ ] [[Abschlussprüfung Teil 1|ApT-1]] 2017 Kameraüberwachung Analyse des Aufbaus der Bild Verarbeitung (kein Bild auseinander flücken)
+- [ ] warum kann ein Transistor ein Impedanzwandler sein
 - [ ] latch flipflop
 - [ ] HCT vs TTL
 - [ ] rechnen mit Einheiten ink. ($x^{-1})$
