@@ -36,9 +36,7 @@ Die Graph-Ansicht visualisiert die Verbindungen zwischen den einzelnen Notizen u
 # Aktuelle Themen
 Aktuelle Themen sind:
 - [[Abschlussprüfung Teil 1]]
-- [[Tondecoder]]
-- [[Direkte Digitalsynthesizer]] ([[Direkte Digitalsynthesizer|DDS]])
-- [[USVs]]
+- #ApT-1-2025 
 - Vom Englischunterricht:
 	- [[PCs|Computer]]
 	- [[INEAC]]
