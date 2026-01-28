@@ -1,1 +1,1 @@
-gui für rizin
+gui für [[rizin]]

@@ -1,1 +1,1 @@
-.NET Debugger
+.NET [[Debugger]]

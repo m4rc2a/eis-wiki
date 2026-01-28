@@ -5,6 +5,7 @@ aliases:
   - Signale
   - Signalen
   - elektrisches Signal
+  - Signals
 ---
 # Begriffserklärung
 Ein [[elektrische Signale|elektrisches Signal]] ist eine Veränderung von elektrischer Spannung oder [[Strom]] über die Zeit hinweg, die **Informationen transportiert**.

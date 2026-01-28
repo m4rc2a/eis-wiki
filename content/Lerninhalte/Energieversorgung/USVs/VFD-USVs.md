@@ -14,10 +14,10 @@ Eine **VFD-USV** (auch **Standby-USV** oder **Offline-USV** genannt) ist eine [[
 ## Im Normalbetrieb
 Die angeschlossenen Geräte werden direkt aus dem Stromnetz versorgt.
 ## Bei Störungen
-Die USV erkennt das Problem und schaltet blitzschnell (meist innerhalb von wenigen Millisekunden) auf die interne Batterie um.
--> Jetzt liefert die USV den Strom direkt aus der Batterie.
+Die [[USVs|USV]] erkennt das Problem und schaltet blitzschnell (meist innerhalb von wenigen Millisekunden) auf die interne Batterie um.
+-> Jetzt liefert die [[USVs|USV]] den [[Strom]] direkt aus der Batterie.
 # **Merkmale**
 - Die angeschlossenen Geräte sind im Normalbetrieb direkt mit dem Stromnetz verbunden (kein Filter, keine Stromaufbereitung).
-- Die USV schaltet nur bei Stromausfall oder großen Netzstörungen auf die Batterie um (also „Standby“).
+- Die [[USVs|USV]] schaltet nur bei Stromausfall oder großen Netzstörungen auf die Batterie um (also „Standby“).
 - Die Umschaltung von Netz- auf Batteriebetrieb dauert meist 2–10 Millisekunden.
 - Für die meisten Standardgeräte reicht das aus, aber empfindliche Elektronik könnte kurzzeitig „aussetzer“ haben.
