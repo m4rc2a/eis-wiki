@@ -1,0 +1,79 @@
+### Begriffserklärung:**
+
+- **MOSFET** steht für **Metall-Oxid-Halbleiter-Feldeffekttransistor**.
+- Er ist der wichtigste **Feldeffekttransistor** (FET) und wird in fast allen modernen **Halbleiterbauelementen** verwendet, z. B. in **Prozessoren**, **Speicherchips** und **Logikgattern**.
+
+---
+
+### **Aufbau eines MOSFET:**
+
+* **Source (S):** Der **Eingang** für die Ladungsträger (Elektronen oder Löcher).
+* **Drain (D):** Der **Ausgang**, an dem die Ladungsträger den Kanal verlassen.
+* **Gate (G):** Der **Steueranschluss**, der durch eine isolierende **Oxidschicht** (meist Siliziumdioxid) vom Kanal getrennt ist.
+* **Substrat (B):** Das Halbleitermaterial, das entweder **n-dopiert** oder **p-dopiert** sein kann.
+
+---
+
+### **Funktionsweise:**
+
+* **Isolierung durch Gate:**
+  Das **Gate** ist elektrisch isoliert und fließt praktisch kein Strom.
+
+* **Kanalbildung:**
+  Wird eine Spannung am Gate angelegt, verändert sich die **Leitfähigkeit** des Halbleiters unter dem Gate, und es bildet sich ein **leitfähiger Kanal** zwischen Source und Drain. Je nach Polung des Gates:
+
+  * **n-MOS**: Der Kanal wird durch **positive Gatespannung** gebildet.
+  * **p-MOS**: Der Kanal wird durch **negative Gatespannung** gebildet.
+
+* **Schwellenspannung (Vₜₕ):**
+  Um den Kanal zu bilden, muss eine bestimmte **Schwellen-Spannung** überschritten werden. Liegt die Gatespannung unterhalb dieses Wertes, bleibt der Transistor **gesperrt**.
+
+---
+
+### **Wichtige Merkmale:**
+
+* **Stromfluss im Kanal:**
+  Der Strom zwischen Source und Drain wird durch die Spannung am Gate kontrolliert – **starkes Gate-Signal = hoher Stromfluss**.
+
+* **Fast und stromsparend:**
+  MOSFETs haben den Vorteil, dass sie im **„ausgeschalteten“ Zustand** fast keinen Strom verbrauchen. Deshalb sind sie die Basis für **stromsparende** und **schnelle Schaltungen**.
+
+---
+
+### **Anwendungen:**
+
+* **Digitale Logik**: MOSFETs sind der Kern in **Prozessoren**, **Speicherbausteinen** und **Logikgattern**.
+* **Schaltkreise**: In **Schaltnetzwerken** und **Analog-Digital-Wandlern**.
+* **Leistungselektronik**: Sie werden auch in **Leistungsschaltungen** verwendet, z. B. in **Motorsteuerungen**.
+
+---
+
+### **Vor- und Nachteile:**
+
+| **Vorteil**                                                           | **Nachteil**                                                                               |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Sehr geringer **Stromverbrauch** im ausgeschalteten Zustand           | **Schwellen-Spannung** muss überschritten werden, was die Steuerspannung beeinflussen kann |
+| **Hohe Geschwindigkeit** (ideal für digitale Schaltungen)             | Empfindlich gegenüber **elektrostatischer Entladung (ESD)**                                |
+| **Miniaturisierbar** – ermöglicht kleine, leistungsfähige Bauelemente | **Gate-Leckströme** können bei sehr kleinen Geometrien ein Problem werden                  |
+
+---
+
+### **Wichtige Begriffe:**
+
+* **Drain-Source-Spannung (Vₖₗ):** Die Spannung zwischen Drain und Source. Sie beeinflusst den **Stromfluss**.
+* **Gatespannung (V_G):** Die Spannung, die auf das Gate angelegt wird, um den Kanal zu bilden und den Transistor zu steuern.
+* **Transistor im „gesperrten“ Zustand:** Es fließt kein Strom, weil kein Kanal gebildet wird.
+* **Transistor im „leitenden“ Zustand:** Es fließt Strom zwischen Source und Drain.
+
+---
+
+### **Merke dir:**
+
+* **MOSFETs sind die Basis der modernen digitalen Elektronik** – sie ermöglichen schnelle Schaltungen bei gleichzeitig geringem Energieverbrauch.
+* Sie werden in **CMOS-Technologie** verwendet, bei der **n-MOS** und **p-MOS** Transistoren kombiniert werden, um **stromeffiziente Logikgatter** zu realisieren.
+
+---
+
+Hoffe, das hilft dir als umfassender Überblick!
+Falls du noch etwas vertiefen oder ein **Diagramm** zur Visualisierung möchtest, lass es mich wissen! 😊
+

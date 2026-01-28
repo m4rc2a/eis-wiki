@@ -1,0 +1,1 @@
+**Okteta** ist ein Hex Editor von der KDE community für Linux und ist da her KDE/QT nativ

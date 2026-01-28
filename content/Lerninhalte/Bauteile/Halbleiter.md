@@ -5,4 +5,4 @@ aliases:
   - Halbleiterbauteil
 ---
 # Begriffserklärung
-**Halbleiter-Bauelemente** sind elektronische Bauteile, die aus [[Halbleitermaterial]] bestehen. Sie nutzen die besonderen Eigenschaften der Halbleiter, um verschiedene technische Aufgaben zu erfüllen.
+**[[Halbleiter|Halbleiter-Bauelemente]]** sind elektronische Bauteile, die aus [[Halbleitermaterial]] bestehen. Sie nutzen die besonderen Eigenschaften der [[Halbleiter]], um verschiedene technische Aufgaben zu erfüllen.

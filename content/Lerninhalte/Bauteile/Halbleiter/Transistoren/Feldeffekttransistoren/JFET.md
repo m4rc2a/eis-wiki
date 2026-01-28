@@ -1,5 +1,5 @@
 # Begriffserklärung
-Ein **JFET (Junction-Feldeffekttransistor)** ist ein [[Feldeffekttransistoren|Feldeffekttransistor]], bei dem der [[Strom|Stromfluss]] durch eine sogenannte pn-Übergangsschicht (Junction) kontrolliert wird.
+Ein **[[JFET]] (Junction-Feldeffekttransistor)** ist ein [[Feldeffekttransistoren|Feldeffekttransistor]], bei dem der [[Strom|Stromfluss]] durch eine sogenannte pn-Übergangsschicht (Junction) kontrolliert wird.
 
 ## Aufbau
 - **Source (S):** Eingang für den [[Strom]]

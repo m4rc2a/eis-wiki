@@ -1,4 +1,4 @@
-Die "Wetterstation" ist eine Baugruppe der Frühjahr 2016 [[Abschlussprüfung Teil 1|ApT-1]] und dient der Erfassung von Wetterdaten u. A. Temperatur, Windgeschwindigkeit und Regenmenge.
+Die "[[Wetterstation]]" ist eine Baugruppe der Frühjahr 2016 [[Abschlussprüfung Teil 1|ApT-1]] und dient der Erfassung von Wetterdaten u. A. Temperatur, Windgeschwindigkeit und Regenmenge.
 
 # Konstanten
 

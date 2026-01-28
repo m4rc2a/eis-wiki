@@ -5,11 +5,11 @@ aliases:
   - Bipolartransistoren
 ---
 # Begriffserklärung
-Ein **Bipolartransistor** (auch **BJT** kurz für: _bipolar junction transistor_) ist ein [[Transistoren|Transistor]], der aus drei Schichten unterschiedlich [[Dotierung|dotierten]] [[Halbleitermaterial|Halbleitermaterials]] besteht. 
+Ein **Bipolartransistor** (auch **[[Bipolartransistoren|BJT]]** kurz für: _bipolar junction transistor_) ist ein [[Transistoren|Transistor]], der aus drei Schichten unterschiedlich [[Dotierung|dotierten]] [[Halbleitermaterial|Halbleitermaterials]] besteht. 
 
-Ein **Bipolartransistor** (auch **BJT** für _bipolar junction transistor_) ist ein [[Transistoren|Transistor]], der aus drei Schichten unterschiedlich [[Dotierung|dotierten]] [[Halbleitermaterial]]s besteht.
+Ein **Bipolartransistor** (auch **[[Bipolartransistoren|BJT]]** für _bipolar junction transistor_) ist ein [[Transistoren|Transistor]], der aus drei Schichten unterschiedlich [[Dotierung|dotierten]] [[Halbleitermaterial]]s besteht.
 ## Unterscheidung
-Es gibt zwei Typen von **BJTs**:
+Es gibt zwei Typen von **[[Bipolartransistoren|BJTs]]**:
 - [[NPN-Transistoren]]
 - [[PNP-Transistoren]]
 

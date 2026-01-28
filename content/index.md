@@ -42,8 +42,10 @@ Aktuelle Themen sind:
 	- [[INEAC]]
 
 # TODOs:
+- [ ] [[Abschlussprüfung Teil 1|ApT-1]] 2017 Kameraüberwachung Analyse des Aufbaus der Bild Verarbeitung (kein Bild auseinander flücken)
 - [ ] latch flipflop
 - [ ] HCT vs TTL
+- [ ] rechnen mit Einheiten ink. ($x^{-1})$
 - [ ] Ordner für ApT1s richtig benennen 
 - [ ] ab wann Schutz klein Spannung
 - [ ] bei dem Kondensator geht der [[Strom]] vor bei der Induktivität kommt die [[Strom]] zu spät
@@ -52,4 +54,5 @@ Aktuelle Themen sind:
 - [ ] USB Typ-A 1.0 Standard vereinfacht
 - [ ] ip addrs und oktette
 - [ ] USB standart
+- [ ] Schutzklassen/-arten
 - [ ] Buck / Boost converter

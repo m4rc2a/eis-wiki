@@ -1,4 +1,4 @@
-Die **Baugruppe-PÜS** (kurz für Prozessüberwachung Störmelder-Baugruppe) ist eine Baugruppe der [[Abschlussprüfung Teil 1|ApT-1]] vom Herbst 2024 und dient der Auswertung von bis zu vier primärleitungsüberwachten [[Störmeldegruppe|Störmeldegruppen]] im Bereich Klima/Temperatursteuerung.
+Die **[[Baugruppe-PÜS]]** (kurz für Prozessüberwachung Störmelder-Baugruppe) ist eine Baugruppe der [[Abschlussprüfung Teil 1|ApT-1]] vom Herbst 2024 und dient der Auswertung von bis zu vier primärleitungsüberwachten [[Störmeldegruppe|Störmeldegruppen]] im Bereich Klima/Temperatursteuerung.
 
 # Einsetzbarkeit
 Einsetzbar ist das System zur Überwachung von [[Störmeldungen]] in den Bereichen:
@@ -41,8 +41,8 @@ Während der Zeit des [[Adressierungszeitschlitz|Adressierungszeitschlitzes]] ge
 Die [[Baugruppe-PÜS]] Anlage Verfügt über eine eigene [[Auswerteeinheit]].
 Die Zuleitungen zur [[Auswerteeinheit]] sind zusätzlich zum eigentlichen Störungsalarmkriterium auf Drahtbruch überwacht.
 # Bauteile
-## Mikrocontroller
-Die Anlage verwenden den [[ATmega328P]] als Mikrocontroller, welcher mit seinem eigenen Systemtakt von Mikrocontroller $8\,\mathrm{MHz}$ arbeitet.
+## [[Mikrocontroller]]
+Die Anlage verwenden den [[ATmega328P]] als [[Mikrocontroller]], welcher mit seinem eigenen Systemtakt von [[Mikrocontroller]] $8\,\mathrm{MHz}$ arbeitet.
 Er steuert u. A. als Zähler den 1-aus-4-Decoderbaustein.
 ## Benutzerschnittstelle
 ### Leuchtdioden

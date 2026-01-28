@@ -1,0 +1,1 @@
+**wxHexEditor** ist ein Hex Editor für Windows mit mehr Features als [[HxD]]

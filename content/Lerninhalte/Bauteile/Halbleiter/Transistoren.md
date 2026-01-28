@@ -3,12 +3,12 @@ aliases:
   - Transistor
 ---
 	# Begriffserklärung
-Ein Transistor ist ein [[Halbleiter]] zum Steuern aber auch zum Verstärken von Spannungen und [[Strom|Ströme]].
+Ein [[Transistoren|Transistor]] ist ein [[Halbleiter]] zum Steuern aber auch zum Verstärken von Spannungen und [[Strom|Ströme]].
 
 > [!NOTE] Begriffszusammensetzung
 > Der Begriff **Transistor** kommt aus dem englischen und setzt sich zusammen aus: **trans**fer res**istor**
 
-Es gibt zwei Typen von **Transistoren**:
+Es gibt zwei Typen von **[[Transistoren]]**:
 
 > [!todo] **TODO**:
 > Hier irgendwas hinschreiben
