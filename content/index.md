@@ -36,7 +36,9 @@ Die Graph-Ansicht visualisiert die Verbindungen zwischen den einzelnen Notizen u
 # Aktuelle Themen
 Aktuelle Themen sind:
 - [[Abschlussprüfung Teil 1]]
-	-> [[Wetterstation]]
+- [[Tondecoder]]
+- [[Direkte Digitalsynthesizer]] ([[Direkte Digitalsynthesizer|DDS]])
+- [[USVs]]
 - Vom Englischunterricht:
 	- [[PCs|Computer]]
 	- [[INEAC]]
