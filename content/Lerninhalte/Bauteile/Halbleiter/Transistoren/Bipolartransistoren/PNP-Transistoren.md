@@ -1,4 +1,3 @@
-# Begriffserklärung
 Der **PNP-Transistor** ist ein Bipolartransistor mit der Schichtanordnung „positiv - negativ - positiv“ (P-N-P).
 # Aufbau
 - **Emitter (E):** p-dotiert

@@ -5,7 +5,6 @@ aliases:
 tags:
   - ApT-1-2025
 ---
-# Begriffserklärung
 **USV** (kurz für: Unterbrechungsfreie Stromversorgung) ist ein elektrisches Gerät oder System, das bei einem Ausfall oder einer Störung der normalen Stromversorgung die angeschlossenen Verbraucher sofort und automatisch für eine kurzzeitige Überbrückung mit Energie aus einer Ersatzquelle (meistens Akku oder Batterie) versorgt.
 
 # USV-Typen

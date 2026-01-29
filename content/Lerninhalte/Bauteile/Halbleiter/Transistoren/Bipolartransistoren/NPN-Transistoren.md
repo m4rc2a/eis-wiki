@@ -1,4 +1,3 @@
-# Begriffserklärung
 Ein **NPN-Transistor** ist eine Variante des Bipolartransistors (*[[Bipolartransistoren|BJT]]*), bei der die Halbleiterschichten in der Reihenfolge „negativ - positiv - negativ“ (N-P-N) angeordnet sind.
 
 # Aufbau

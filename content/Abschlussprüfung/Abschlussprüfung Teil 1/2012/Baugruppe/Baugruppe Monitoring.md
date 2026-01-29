@@ -1,4 +1,3 @@
-# Begriffserklärung
 Die Baugruppe dient zur Auswertung von bis zu 4 primärleitungsüberwachten Störmeldegruppen.
 # Einsatzgebiete
 Universell zur Überwachung von 

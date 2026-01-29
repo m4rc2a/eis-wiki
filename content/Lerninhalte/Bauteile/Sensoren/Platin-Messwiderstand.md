@@ -2,7 +2,6 @@
 aliases:
   - Platin Messwiderstände
 ---
-# Begriffserklärung
 [[Platin-Messwiderstand|Platin Messwiderstände]] sind [[Widerstandstemperatursensor|Widerstandstemperatursensoren]] aus Platin.
 Platin hat ein sehr linearen und bekannten [[Temperaturkoeffizient|Temperaturkoeffizienten]].
 Dies vereinfacht die Kalibrierung und sorgt für präzise Temperaturmessungen.

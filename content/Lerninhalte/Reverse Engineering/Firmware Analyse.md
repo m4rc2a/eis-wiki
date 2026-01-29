@@ -1,4 +1,3 @@
-# Begriffserklärung
 **Software Reverse Engineering** ist ein Prozess, bei dem versucht wird, die Funktionsweise, Struktur oder den Quellcode einer Software nachträglich zu rekonstruieren. Ziel ist es, aus einer bereits existierenden Anwendung Informationen über deren Aufbau und Verhalten herauszufinden – häufig, wenn technische Dokumentation fehlt oder man den ursprünglichen Quellcode nicht besitzt.
 
 # Vorgehen

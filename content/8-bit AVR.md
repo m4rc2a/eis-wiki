@@ -1,5 +1,4 @@
-# Begriffserklärung
-**[[8-bit AVR]]** ist eine Mikrocontroller-Architektur von Atmel (heute Microchip Technology).
+**** ist eine Mikrocontroller-Architektur von Atmel (heute Microchip Technology).
 # Begriffs Herleitung
 - Die Architektur verwendet einen **8** Bit breiten Hauptdatenpfad.
 - **AVR** Wsteht für "**A**lf and **V**egard’s **R**ISC processor**"

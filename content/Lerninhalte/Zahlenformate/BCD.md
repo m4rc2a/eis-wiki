@@ -1,15 +1,14 @@
-# Begriffserklärung
 
-[[BCD]] (Kurz für **Binary Coded Decimal**) ein [[Zahlenformat]], bei der jede Dezimalziffer einzeln durch 4 Bits kodiert wird.
+ (Kurz für **Binary Coded Decimal**) ein [[Zahlenformat]], bei der jede Dezimalziffer einzeln durch 4 Bits kodiert wird.
 Dadurch können Zahlen leicht in Geräten verarbeitet oder angezeigt werden, die mit Dezimalwerten arbeiten.
 
 # Leserichtung
 
-[[BCD]] wird von **von links nach rechts** geschrieben/gelesen so wie bei Dezimalzahlen.
+ wird von **von links nach rechts** geschrieben/gelesen so wie bei Dezimalzahlen.
 
 # Kodierung
 
-Um eine Dezimalzahl als [[BCD]] zu kodieren:
+Um eine Dezimalzahl als  zu kodieren:
 1. Wandle jede einzelne Ziffer in Binär um
 2. Ordne für jede Ziffer die Binärwerte nacheinander an
 
@@ -18,14 +17,14 @@ Um eine Dezimalzahl als [[BCD]] zu kodieren:
 
 # Dekodierung
 
-Um eine [[BCD]] zahl zurück in Dezimalschreibweise zu konvertieren.
+Um eine  zahl zurück in Dezimalschreibweise zu konvertieren.
 1. Teile als Erstes die BCD-zahl in Stücke, bestehend aus jeweils 4 Bits
 2. jedes 4 Bits Stück zurück in Dezimal umwandeln
 3. Dezimalziffern zusammen setzen
 
 # Beispiel
 
-- die Zahl 1337 als [[BCD]]:
+- die Zahl 1337 als :
     - 1 -> `0001`
     - 3 -> `0011`
     - 3 -> `0011`

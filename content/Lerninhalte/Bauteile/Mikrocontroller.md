@@ -9,10 +9,10 @@ tags:
   - bauteile
 ---
 
-Ein **[[Mikrocontroller]]** (kurz: [[Mikrocontroller|µC]]) ist ein [[Integrierter Schaltkreis|IC]] (Halbleiter), der die Komponenten eines Computers auf einem einzelnen kleinen IC vereint.
+Ein **** (kurz: [[Mikrocontroller|µC]]) ist ein [[Integrierter Schaltkreis|IC]] (Halbleiter), der die Komponenten eines Computers auf einem einzelnen kleinen IC vereint.
 Daher werden teilweise µC auch "[[System-on-a-Chip]]" (oder kurz: [[System-on-a-Chip|SoC]]) genannt.
 
-Im Gegensatz zu einem "normalen" [[PCs|Computer]] erledigt ein [[Mikrocontroller]] sehr gezielte Aufgaben.
+Im Gegensatz zu einem "normalen" [[PCs|Computer]] erledigt ein  sehr gezielte Aufgaben.
 -> Daher stromsparend
 
 # Aufbau

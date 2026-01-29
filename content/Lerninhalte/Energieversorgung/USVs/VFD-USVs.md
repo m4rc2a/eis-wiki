@@ -8,7 +8,6 @@ aliases:
 tags:
   - ApT-1-2025
 ---
-# Begriffserklärung
 Eine **VFD-USV** (auch **Standby-USV** oder **Offline-USV** genannt) ist eine [[USVs|USV]] und zwar die einfachste und meist kostengünstigste Art.
 # **Funktionsweise**
 ## Im Normalbetrieb

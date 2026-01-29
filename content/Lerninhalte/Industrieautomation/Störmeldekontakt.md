@@ -1,2 +1,1 @@
-# Begriffserklärung
-Ein **[[Störmeldekontakt]]** ist im Themenbereich [[Industrieautomation]] ein spezieller elektrischer Kontakt, der in Anlagen, Steuerungen oder Geräten [[Störmeldungen]] macht. Das Prinzip ist simpel, aber enorm wichtig für die Überwachung und Sicherheit technischer Systeme.
+Ein **** ist im Themenbereich [[Industrieautomation]] ein spezieller elektrischer Kontakt, der in Anlagen, Steuerungen oder Geräten [[Störmeldungen]] macht. Das Prinzip ist simpel, aber enorm wichtig für die Überwachung und Sicherheit technischer Systeme.

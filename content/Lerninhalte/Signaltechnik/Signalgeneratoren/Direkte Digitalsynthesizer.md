@@ -9,7 +9,6 @@ aliases:
 tags:
   - ApT-1-2025
 ---
-# Begriffserklärung
 Ein **Direkter Digitalsynthesizer** (kurz: DDS) ist ein [[Signalgeneratoren|Signalgenerator]], dass verschiedene Wellenformen auf digitaler weise generieren kann.
 # Funktionsweise
 1. Die Form einer Welle (z.B. Sinus) wird als Zahlenfolge in einem Speicher hinterlegt.

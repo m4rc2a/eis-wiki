@@ -4,7 +4,6 @@ aliases:
   - BJTs
   - Bipolartransistoren
 ---
-# Begriffserklärung
 Ein **Bipolartransistor** (auch **[[Bipolartransistoren|BJT]]** kurz für: _bipolar junction transistor_) ist ein [[Transistoren|Transistor]], der aus drei Schichten unterschiedlich [[Dotierung|dotierten]] [[Halbleitermaterial|Halbleitermaterials]] besteht. 
 
 Ein **Bipolartransistor** (auch **[[Bipolartransistoren|BJT]]** für _bipolar junction transistor_) ist ein [[Transistoren|Transistor]], der aus drei Schichten unterschiedlich [[Dotierung|dotierten]] [[Halbleitermaterial]]s besteht.

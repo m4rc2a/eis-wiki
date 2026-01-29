@@ -8,7 +8,7 @@ Ein [[Transistoren|Transistor]] ist ein [[Halbleiter]] zum Steuern aber auch zum
 > [!NOTE] Begriffszusammensetzung
 > Der Begriff **Transistor** kommt aus dem englischen und setzt sich zusammen aus: **trans**fer res**istor**
 
-Es gibt zwei Typen von **[[Transistoren]]**:
+Es gibt zwei Typen von ****:
 
 > [!todo] **TODO**:
 > Hier irgendwas hinschreiben

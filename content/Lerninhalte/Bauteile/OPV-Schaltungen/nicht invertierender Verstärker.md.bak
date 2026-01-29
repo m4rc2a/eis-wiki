@@ -1,0 +1,10 @@
+---
+aliases:
+  - Elektrometerverstärker
+---
+Ein [[nicht invertierender Verstärker]] ist eine elektronische Schaltung, mit einem Kondensator als [[Gegenkopplung]].
+Sie sorgt dafür, dass das Ausgangssignal die **zeitliche [[Integration]]** des Eingangssignals darstellt.
+-> Eingangssignal wird über die Zeit "aufaddiert"
+-> Die Abhängigkeit von der Zeit kommt vom Kondensator
+
+[Klick Hier für CicuitJS](https://falstad.com/circuit/circuitjs.html?cct=%24%201%200.000005%2010.20027730826997%2057%205%2050%205e-11%0Av%20160%20320%20160%20176%200%201%2040%205%200%200%200.5%0Ag%20160%20320%20160%20336%200%200%0Aw%20192%20208%20192%20256%200%0Aa%20192%20192%20336%20192%209%2015%20-15%201000000%202.92356809918918%202.923655806232156%20100000%0Ar%20336%20256%20336%20192%200%202000%0Ar%20336%20256%20336%20320%200%201000%0Aw%20160%20176%20192%20176%200%0AO%20336%20192%20400%20192%200%200%0Aw%20336%20256%20192%20256%200%0Aw%20336%20320%20160%20320%200%0Ao%200%2064%200%204098%205%200.00009765625%200%202%200%203%0Ao%207%2064%200%204098%2020%200.00009765625%201%201)

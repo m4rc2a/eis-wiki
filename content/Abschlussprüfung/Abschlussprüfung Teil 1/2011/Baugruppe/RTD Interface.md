@@ -2,7 +2,6 @@
 aliases:
   - Das Interface
 ---
-# Begriffserklärung
 Das [[Widerstandstemperatursensor|RTD]] (Resistance Temperature Device) Interface ist ein Temperaturerfassungsmodul für ein [[Baugruppen-Analyse#PT100|PT100 Temperatur Sensor]].
 # Konstanten
 

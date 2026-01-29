@@ -2,7 +2,6 @@
 aliases:
   - Feldeffekttransistor
 ---
-# Begriffserklärung
 Ein **[[Feldeffekttransistoren|Feldeffekttransistor]] (FET)** ist ein elektronisches Bauteil, das [[Strom|Ströme]] und Spannungen steuern kann. Im Unterschied zum Bipolartransistor wird ein FET nicht durch einen [[Strom]], sondern durch eine elektrische *Spannung* am sogenannten „Gate“ gesteuert.
 
 # Aufbau

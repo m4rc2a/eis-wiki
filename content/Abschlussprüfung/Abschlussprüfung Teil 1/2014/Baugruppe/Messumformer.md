@@ -7,8 +7,7 @@ aliases:
   - Messumformmodul
   - Messumformungsmodul
 ---
-# Begriffserklärung
-Der [[Messumformer]] ist ein Temperaturerfassungsmodul aus der [[Abschlussprüfung Teil 1|ApT-1]].
+Der  ist ein Temperaturerfassungsmodul aus der [[Abschlussprüfung Teil 1|ApT-1]].
 [[Messumformer|Das Modul]] verwendet nach beliebigen ein [[PT100|PT100]] oder ein [[PT1000|PT100]] Temperatur [[PT1000|Sensor]].
 # Konstanten
 

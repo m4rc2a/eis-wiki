@@ -2,7 +2,6 @@
 aliases:
   - Signalgenerator
 ---
-# Begriffserklärung
 Ein Signalgenerator ist ein **elektronisches Gerät** oder **Modul**, das gezielt [[elektrische Signale]] mit bestimmter Frequenz, Form und Amplitude erzeugt.
 # Typen
 Um den Anforderungen verschiedener Anwendungen gerecht zu werden, gibt es unterschiedliche Signalgenerator-Typen. Sie unterscheiden sich in der Funktionsweise.

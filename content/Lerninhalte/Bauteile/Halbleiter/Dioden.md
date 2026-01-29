@@ -2,7 +2,6 @@
 aliases:
   - Diode
 ---
-# Begriffserklärung
 Eine **[[Dioden|Diode]]** ist ein [[Halbleiter|Halbleiterbauteil]], dass "versucht", [[Strom|elektrischen Strom]] nur in einer Richtung fließen zu lassen.
 
 # Begriffs Herleitung
