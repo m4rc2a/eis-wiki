@@ -2,7 +2,7 @@
 aliases:
   - Elektrometerverstärker
 ---
-Ein  ist eine elektronische Schaltung, mit einem Kondensator als [[Gegenkopplung]].
+Ein [[nicht invertierender Verstärker]] ist eine elektronische Schaltung, mit einem Kondensator als [[Gegenkopplung]].
 Sie sorgt dafür, dass das Ausgangssignal die **zeitliche [[Integration]]** des Eingangssignals darstellt.
 -> Eingangssignal wird über die Zeit "aufaddiert"
 -> Die Abhängigkeit von der Zeit kommt vom Kondensator

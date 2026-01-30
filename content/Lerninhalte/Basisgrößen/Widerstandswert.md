@@ -10,7 +10,7 @@ aliases:
   - Ohm'scher Widerstand
   - Ohm'schen Widerstand
 ---
-Der **** ist eine Basisgröße und beschreibt wie gut ein Material oder Bauteil ist, ein [[Strom|elektrischen Stromfluss]] zu behindern.
+Der **[[Widerstandswert]]** ist eine Basisgröße und beschreibt wie gut ein Material oder Bauteil ist, ein [[Strom|elektrischen Stromfluss]] zu behindern.
 # typische Variablen
 
 | Variablennamen | Beschreibung                            |
@@ -20,12 +20,12 @@ Der **** ist eine Basisgröße und beschreibt wie gut ein Material oder Bauteil 
 
 | Größe      | Einheit | Symbol   |
 | ---------- | ------- | -------- |
-|  | Ohm     | $\Omega$ |
+| [[Widerstandswert]] | Ohm     | $\Omega$ |
 # Definition
 
 Formel: $$ R = \frac{U}{I} $$ **Dabei gilt:**
 
-- ($R$):  (in Ohm)
+- ($R$): [[Widerstandswert]] (in Ohm)
 - ($U$): angelegte Spannung (in Volt)
 - ($I$): Stromstärke (in Ampere)
 ## Merksatz

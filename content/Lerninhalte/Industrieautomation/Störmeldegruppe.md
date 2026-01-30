@@ -9,7 +9,7 @@ aliases:
   - Meldegruppe
   - Meldegruppen
 ---
-Eine  ist im Themenbereich [[Industrieautomation]] ein Zusammenschluss mehrerer [[Störmeldungen]] (also Fehlermeldungen von verschiedenen Geräten, Sensoren oder Prozessen) zu einer logischen Einheit. Das bedeutet, statt jede Störung einzeln zu behandeln, werden sie gemeinsam überwacht und dargestellt.
+Eine [[Störmeldegruppe]] ist im Themenbereich [[Industrieautomation]] ein Zusammenschluss mehrerer [[Störmeldungen]] (also Fehlermeldungen von verschiedenen Geräten, Sensoren oder Prozessen) zu einer logischen Einheit. Das bedeutet, statt jede Störung einzeln zu behandeln, werden sie gemeinsam überwacht und dargestellt.
 
 ---
 
@@ -42,9 +42,9 @@ In Siemens-Systemen (z.B. SIMATIC [[PCs]] 7, S7 oder WinCC) werden Störmeldegru
 ---
 
 # Kurz gesagt:  
-Eine  ist eine intelligente Zusammenfassung von mehreren [[Störmeldungen]] zu einer Gruppenanzeige im Leitsystem oder der Gebäudeautomation.
+Eine [[Störmeldegruppe]] ist eine intelligente Zusammenfassung von mehreren [[Störmeldungen]] zu einer Gruppenanzeige im Leitsystem oder der Gebäudeautomation.
 
 ---
 # Siehe auch
-- Sammelstörmeldung -> das Ergebnis einer 
+- Sammelstörmeldung -> das Ergebnis einer [[Störmeldegruppe]]
 - [[Störmeldegruppe|Meldegruppe]] -> manchmal auch für Alarm- oder Betriebsmeldungen

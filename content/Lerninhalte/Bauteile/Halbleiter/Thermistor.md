@@ -1,7 +1,7 @@
 ---
 aliases:
 ---
-Ein **** ist ein [[Widerstandstemperatursensor]], der aus einem **[[Halbleitermaterial]]** besteht.
+Ein **[[Thermistor]]** ist ein [[Widerstandstemperatursensor]], der aus einem **[[Halbleitermaterial]]** besteht.
 # Funktionsweise
 Der [[Widerstandswert]] ändert sich nicht linear zur Temperatur
 # Varianten

@@ -9,7 +9,7 @@ aliases:
   - OA
   - Operationsverstärkers
 ---
-Ein **** ist eine elektronische Standard-Baustein-Schaltung mit sehr hoher Verstärkung, meist als [[Integrierter Schaltkreis|IC]] ([[integrierter Schaltkreis]]).  
+Ein **[[Operationsverstärker]]** ist eine elektronische Standard-Baustein-Schaltung mit sehr hoher Verstärkung, meist als [[Integrierter Schaltkreis|IC]] ([[integrierter Schaltkreis]]).  
 Er wird in vielen Schaltungen zum Verstärken, Vergleichen, Filtern oder Rechnen von analogen [[elektrische Signale|Signalen]] eingesetzt. Grundprinzip:  
 - Zwei Eingänge (invertierend „-“ und nicht-invertierend „+“)
 - Ein Ausgang

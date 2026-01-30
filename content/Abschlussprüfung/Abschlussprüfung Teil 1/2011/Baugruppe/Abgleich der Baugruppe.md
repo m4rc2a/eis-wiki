@@ -1,7 +1,7 @@
 <!-- TODO -->
 Es wird unterschieden in:
--  mit 2-Drahttechnik
--  mit 4-Drahttechnik
+- [[Abgleich der Baugruppe]] mit 2-Drahttechnik
+- [[Abgleich der Baugruppe]] mit 4-Drahttechnik
 # 2-Drahttechnik
 - ohne angeschlossenen [[PT100|Sensor]]
 ## Referenzwiderstände

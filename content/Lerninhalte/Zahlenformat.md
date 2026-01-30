@@ -8,4 +8,4 @@ aliases:
   - Notationsform für Zahlen
 ---
 
-Ein **** ist eine Art, die beschreibt, wie [Zahlen](https://de.wikipedia.org/wiki/Zahl "Zahl") im [Dezimalsystem](https://de.wikipedia.org/wiki/Dezimalsystem "Dezimalsystem") notiert werden.
+Ein **[[Zahlenformat]]** ist eine Art, die beschreibt, wie [Zahlen](https://de.wikipedia.org/wiki/Zahl "Zahl") im [Dezimalsystem](https://de.wikipedia.org/wiki/Dezimalsystem "Dezimalsystem") notiert werden.

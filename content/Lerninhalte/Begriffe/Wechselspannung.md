@@ -1,1 +1,1 @@
- ist eine elektrische Spannung, die sich periodisch (wiederholend) in ihrer Stärke und Richtung ändert. Das Gegenteil davon ist die [[Gleichspannung]].
+[[Wechselspannung]] ist eine elektrische Spannung, die sich periodisch (wiederholend) in ihrer Stärke und Richtung ändert. Das Gegenteil davon ist die [[Gleichspannung]].

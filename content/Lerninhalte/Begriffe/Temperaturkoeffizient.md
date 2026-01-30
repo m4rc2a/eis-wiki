@@ -4,12 +4,12 @@ aliases:
   - Temperaturbeiwert
   - Temperaturkoeffizienten
 ---
-Ein  ist ein [[Koeffizient]], der angibt, wie stark ein physikalischer Messwert (zum Beispiel [[Widerstandswert|elektrischer Widerstand]] oder Spannung) sich ändert, wenn die Temperatur um $1 °C$ (oder manchmal auch auch in Kelvin $1°K$) steigt oder fällt.
+Ein [[Temperaturkoeffizient]] ist ein [[Koeffizient]], der angibt, wie stark ein physikalischer Messwert (zum Beispiel [[Widerstandswert|elektrischer Widerstand]] oder Spannung) sich ändert, wenn die Temperatur um $1 °C$ (oder manchmal auch auch in Kelvin $1°K$) steigt oder fällt.
 # typische Variablen
 
 | Variablennamen | Beschreibung                                  | Anwendung                                 |
 | -------------- | --------------------------------------------- | ----------------------------------------- |
-| $\alpha$       |                      | häufig in Physik und Technik              |
+| $\alpha$       | [[Temperaturkoeffizient]]                     | häufig in Physik und Technik              |
 | $K$            | allgemeiner für [[Koeffizient\|Faktoren]]     |                                           |
 | $TC$           | Abkürzung für **T**emperature **C**oefficient | in englischsprachigen Dokumenten und Code |
 # Einheit
@@ -21,7 +21,7 @@ Ein  ist ein [[Koeffizient]], der angibt, wie stark ein physikalischer Messwert 
 | $V / ^\circ C$      | Änderung des Spannung pro Grad Celsius Temperaturänderung    |
 | $\Omega / ^\circ C$ | Änderung des Widerstands pro Grad Celsius Temperaturänderung |
 # Definition
-Der **** ($\alpha$) gibt an, wie stark sich eine physikalische Größe ändert ($\Delta X$), wenn sich die Erhöhung der Temperatur ($\Delta T$) $1 K$ bzw.  $1 ^\circ C$ beträgt, bezogen auf ihren Ausgangswert ($X_0$).
+Der **[[Temperaturkoeffizient]]** ($\alpha$) gibt an, wie stark sich eine physikalische Größe ändert ($\Delta X$), wenn sich die Erhöhung der Temperatur ($\Delta T$) $1 K$ bzw.  $1 ^\circ C$ beträgt, bezogen auf ihren Ausgangswert ($X_0$).
 <!-- TODO: Was ist dieser Ausgangswert -->
 $X$ ist hier bei die physikalische Größe zB. [[Widerstandswert]] oder Spannung.
 $$ \alpha=\frac{1}{X_0} \cdot \frac{\Delta X}{\Delta T} $$

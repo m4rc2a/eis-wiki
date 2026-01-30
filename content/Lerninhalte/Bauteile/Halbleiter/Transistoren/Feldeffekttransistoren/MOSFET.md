@@ -1,5 +1,5 @@
 
-Der ** (Metall-Oxid-Halbleiter-Feldeffekttransistor)** ist der meistverwendete FET-Typ und ein Grundbaustein aller modernen Computerchips.
+Der **[[MOSFET]] (Metall-Oxid-Halbleiter-Feldeffekttransistor)** ist der meistverwendete FET-Typ und ein Grundbaustein aller modernen Computerchips.
 
 # Typen
 - **n-MOS:** leitet bei positiver Gatespannung

@@ -4,7 +4,7 @@ aliases:
   - Widerstand als Bauteil
   - Widerstand als elektronisches Bauteil
 ---
-Ein  ist ein Bauteil, das einen bestimmten [[Widerstandswert]] bei [[Strom|Stromfluss]] erzeugt.
+Ein [[Widerstand]] ist ein Bauteil, das einen bestimmten [[Widerstandswert]] bei [[Strom|Stromfluss]] erzeugt.
 Es wird zwischen THT- und SMD-Widerständen unterschieden.
 
 > [!info] Tabellenbuch:
