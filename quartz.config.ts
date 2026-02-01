@@ -15,7 +15,7 @@ const config: QuartzConfig = {
     analytics: null,
     locale: "de-DE",
     baseUrl: "m4rc2a.github.io/eis-wiki/",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", "textgenerator", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
