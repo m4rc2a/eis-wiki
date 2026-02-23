@@ -42,13 +42,13 @@ Aktuelle Themen sind:
 	- [[INEAC]]
 
 # TODOs:
-- [ ] warum kann ein Transistor ein Impedanzwandler sein
+- [ ] warum kann ein [[Transistoren|Transistor]] ein Impedanzwandler sein
 - [ ] latch flipflop
 - [ ] HCT vs TTL
 - [ ] rechnen mit Einheiten ink. ($x^{-1})$
 - [ ] Ordner für ApT1s richtig benennen 
-- [ ] ab wann Schutz klein Spannung
-- [ ] bei dem Kondensator geht der [[Strom]] vor bei der Induktivität kommt die [[Strom]] zu spät
+- [ ] ab wann Schutz klein [[Spannung]]
+- [ ] bei dem Kondensator geht der [[Stromstärke]] vor bei der Induktivität kommt die [[Stromstärke]] zu spät
 - [ ] flip flop -> bistabile Kipstufe
 - [ ] Softwarearten (Branchensoftware, Standardsoftware und so)
 - [ ] USB Typ-A 1.0 Standard vereinfacht

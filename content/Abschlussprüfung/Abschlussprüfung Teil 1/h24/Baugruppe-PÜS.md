@@ -40,7 +40,7 @@ Während der Zeit des [[Adressierungszeitschlitz|Adressierungszeitschlitzes]] ge
 # [[Auswerteeinheit]]
 Die [[Baugruppe-PÜS]] Anlage Verfügt über eine eigene [[Auswerteeinheit]].
 Die Zuleitungen zur [[Auswerteeinheit]] sind zusätzlich zum eigentlichen Störungsalarmkriterium auf Drahtbruch überwacht.
-# Bauteile
+# [[Bauteile]]
 ## [[Mikrocontroller]]
 Die Anlage verwenden den [[ATmega328P]] als [[Mikrocontroller]], welcher mit seinem eigenen Systemtakt von [[Mikrocontroller]] $8\,\mathrm{MHz}$ arbeitet.
 Er steuert u. A. als Zähler den 1-aus-4-Decoderbaustein.
@@ -77,6 +77,6 @@ Während des multiplexgesteuerten [[Adressierungszeitschlitz|Adressierungszeitsc
 Messwert der [[Störmeldegruppe]] über den jeweilig adressierten [[Analogschalter]] auf die nachgeschaltete [[Komparator|Komparatorstufe]] mit -K7.2, -K7.3 und -K7.4.
 Dort werden die gemessenen Spannungen mit fest vorgegebenen Referenzspan-
 nungswerten verglichen und bewertet. Für die hier beschriebene Anwendung müssen Sie mittels der einstellbaren
-Konstantspannungsquelle -K7.1 an Messpunkt -MP10 mit -R20 eine Spannung von 2,25 V einstellen.
+Konstantspannungsquelle -K7.1 an Messpunkt -MP10 mit -R20 eine [[Spannung]] von 2,25 V einstellen.
 In Abhängigkeit der [[elektrische Signale|Signale]] an Pin 9 und Pin 10 des Decoderbausteins -K6 wird die [[Komparator|Komparatorstufe]] angesteuert,
 die die Summensignale Ruhe, Alarm und Störung der Meldezuleitung erzeugt (siehe Tabelle 1).

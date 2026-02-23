@@ -1,5 +1,0 @@
----
-aliases:
-  - Sensor
----
-Ein **Sensoren** (im Kontext von Elektrotechnik) ist ein technisches Bauteil oder Gerät, das physikalische oder chemische Größen aus seiner Umgebung erfasst und diese in ein nutzbares [[elektrische Signale|elektrisches Signal]] umwandelt.

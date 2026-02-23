@@ -5,9 +5,9 @@ Es wird unterschieden in:
 # 2-Drahttechnik
 - ohne angeschlossenen [[PT100|Sensor]]
 ## Referenzwiderstände
-- Referenzwiderstände mit [[Widerstandswert]] des Sensors bei $0\,^\circ\mathrm{C}$
+- Referenzwiderstände mit [[Widerstandswerte]] des Sensors bei $0\,^\circ\mathrm{C}$
 	-> $100\,\Omega$ **(-R14)**
-- Referenzwiderstände mit [[Widerstandswert]] des Sensors bei $100\,^\circ\mathrm{C}$
+- Referenzwiderstände mit [[Widerstandswerte]] des Sensors bei $100\,^\circ\mathrm{C}$
 	-> $138,5\,\Omega$ **(-R12, -R13)**
 ## Referenzwiderstands Jumper
 - Jumper **-XJ6** zum Abgleich bei $0\,^\circ\mathrm{C}$

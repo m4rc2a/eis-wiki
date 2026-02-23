@@ -4,9 +4,9 @@
 - Dateityp: ELF (Atmel AVR)
 - Architektur: Atmel AVR (8‑bit), ELF32 LSB
 - Status: Executable, statisch gelinkt, stripped (keine Symbole)
-- Zweck: MCU‑Firmware / Flash‑Image (kein Linux‑Programm)
+- Zweck: [[Mikrocontroller|MCU]]‑Firmware / Flash‑Image (kein Linux‑Programm)
 - Build-Toolchain: Atmel Studio / avr-gcc (GCC 5.4.0 für avr5).  
-- Zielgerät: ATmega328P (avr5).  
+- Zielgerät: [[ATmega328P]] (avr5).  
 - Ergebnis: Linker-Map und Layout des Firmware-Builds — enthält viele symbolische Namen (Originalquellfunktionen, Bibliotheksroutinen), die im gelieferten ELF zwar "stripped" sind, aber hier hilfreiche Adressen/Größen liefern.
 
 ## Wichtige Informationen aus der Map
@@ -23,7 +23,7 @@
   - betriebsmodus.o (größere Funktionsgruppe)
   - main.o (UI / Tests / setup)
   - twimaster.o (I2C)
-  - uart.o (UART)
+  - [[uart]].o ([[UART]])
   - diverse avr-libc / libm / libgcc Einträge (Float, math, div/mod, eeprom helpers)
 
 - .text (signifikante Funktionen mit Adressen):
@@ -34,7 +34,7 @@
   - LCD-Funktionen (z.B. `lcd_init`) @ 0x00000f90
   - `main` (startup.main)      @ 0x00001768 (Länge 0x104)
   - I2C: `i2c_init` / `i2c_start` / `i2c_write` etc. @ ~0x0000186c…
-  - UART: `uart_init`, `uart_putc`, `uart_puts` @ ~0x00001906…
+  - [[UART]]: `uart_init`, `uart_putc`, `uart_puts` @ ~0x00001906…
   - Test- und Hilfsroutinen: `Test_LCD`, `Test_UART`, `Test_DAC`, `Inbetriebnahme`, `setDAC` etc.
 
 - Datenbereiche:
@@ -48,15 +48,15 @@
 
 ## Was bedeutet das praktisch für die Analyse?
 - Die Map ist sehr wertvoll: sie enthält symbolische Namen + Adressen — das macht Reverse‑Engineering deutlich einfacher, auch wenn das ELF selbst "stripped" ist.
-- Du kannst die Adressen aus der Map verwenden, um Disassembly/Decompilation automatisch zu annotieren (z. B. in Ghidra, radare2 oder objdump).
-- Viele bekannte Subsysteme sind klar identifiziert: LCD-Steuerung, UART, I2C (TWIMASTER), DAC-Tests, Menü/Bedienmodi — das gibt direkt Hinweise, wonach man im Binärcode suchen sollte.
+- Du kannst die Adressen aus der Map verwenden, um Disassembly/Decompilation automatisch zu annotieren (z. B. in [[Ghidra]], [[radare2]] oder objdump).
+- Viele bekannte Subsysteme sind klar identifiziert: LCD-Steuerung, [[UART]], I2C (TWIMASTER), DAC-Tests, Menü/Bedienmodi — das gibt direkt Hinweise, wonach man im Binärcode suchen sollte.
 
 ---
 
 ## Wichtige ELF‑Metadaten
 - Klasse / Endianess: `ELF32`, little endian  
 - Typ: `EXEC` (Executable file)  
-- Entry point: `0x0` (üblich für MCU‑Firmware)  
+- Entry point: `0x0` (üblich für [[Mikrocontroller|MCU]]‑Firmware)  
 - Program Header: `6` Segmente  
 - Section Header: `8` Sektionen
 
@@ -97,5 +97,5 @@
 
 ## Was das praktisch bedeutet
 - Das ist höchstwahrscheinlich ein komplettes AVR‑Firmware‑Image (Code + EEPROM + Fuse/Lock/Signatur).  
-- Nicht ein normales Linux‑Executable — eher für Flash auf ein MCU‑Board gedacht.  
+- Nicht ein normales Linux‑Executable — eher für Flash auf ein [[Mikrocontroller|MCU]]‑Board gedacht.  
 - Analyse erfordert statisches Reverse‑Engineering (Disassembly/Decompile) und Untersuchung der EEPROM/Signatur‑Blöcke.

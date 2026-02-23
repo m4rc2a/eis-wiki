@@ -1,0 +1,2 @@
+Ein **[[Oberlast-Störungsmelder]]** ist eine spezielle Form der Störungsanzeige, die speziell eine [[Oberlast-Störung|Oberlaststörungen]] anzeigt.  
+-> Dieser Melder gibt ein [[elektrische Signale|Signal]], wenn beispielsweise ein Motor, eine Leitung oder ein anderes [[Bauteile|Bauteil]] stärker beansprucht wird als vorgesehen – etwa durch zu hohen [[Stromstärke]], zu große mechanische Belastung etc.

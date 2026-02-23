@@ -19,10 +19,10 @@ Der [[Messumformer]] ist ein Temperaturerfassungsmodul aus der [[Abschlussprüfu
 # Messprinzip
 ## Features
 - [[Messumformer|Das Modul]] unterstützt ausschließlich nur ein [[PT100#^2draht|2-Drahtanschluss]] eines [[PT100]]/[[PT1000]]  
-- [[Messumformer|Das Modul]] verwendet zur Messung das Prinzip des Spannungsfalls an einem [[Widerstandswert]] bei konstantem [[#^Messstrom1000|Messstrom]]. ^spannungsabfall
+- [[Messumformer|Das Modul]] verwendet zur Messung das Prinzip des Spannungsfalls an einem [[Widerstandswerte]] bei konstantem [[#^Messstrom1000|Messstrom]]. ^spannungsabfall
 ## Verfahren
 - Die "minimale" [[#^spannungsabfall|Spannungsänderung]] wird in ein "technisch verwertbares [[elektrische Signale|Signal]]" umgewandelt.
 	- dabei wird ein [[Koeffizient]] von $10 mV/K$ verwendet
-	-> Spannung ist zwischen `-X2` und `-X3` abgreifbar
+	-> [[Spannung]] ist zwischen `-X2` und `-X3` abgreifbar
 > **Hinweis:**
 > Der richtige Temperatur [[PT1000|Sensor]] muss [[Auswahl des Sensors|ausgewählt]] sein.
