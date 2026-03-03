@@ -1,4 +1,0 @@
----
-aliases:
-  - CPU Architektur
----

@@ -1,1 +1,0 @@
-**Automatisierte Analyse / Scripting-Plattformen**

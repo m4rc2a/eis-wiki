@@ -1,1 +1,0 @@
-**Funktion:** Zeigen Maschinen- oder Bytecode als lesbaren Assembler an, ermöglichen Breakpoints, Schritt-für-Schritt-Analyse.

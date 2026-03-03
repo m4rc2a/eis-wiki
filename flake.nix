@@ -28,7 +28,9 @@
 
         buildInputs = [
           pkgs.source-sans
+          pkgs.atkinson-hyperlegible-next
           pkgs.jetbrains-mono
+          pkgs.atkinson-hyperlegible-mono
         ];
 
         # Wir nutzen das Quartz-CLI direkt (statt npm run build, das es nicht gibt)
@@ -50,13 +52,13 @@
         postInstall = ''
           # Quartz output liegt bei dir evtl. unter $out (je nach installPhase).
           # Wir legen die Fonts dahin, wo Quartz sie als /static/... ausliefert:
-          mkdir -p $out/static/fonts
+          mkdir -p $out/public/static/fonts
 
           # WOFF2 aus nixpkgs rüberkopieren (Pfad variiert; wir suchen robust)
           copy_woff2() {
             local src="$1"
             if [ -d "$src" ]; then
-              find "$src" -type f -name '*.woff2' -print -exec cp -v '{}' "$out/static/fonts/" \;
+              find "$src" -type f -name '*.woff2' -print -exec cp -v '{}' "$out/public/static/fonts/" \;
             fi
           }
 
