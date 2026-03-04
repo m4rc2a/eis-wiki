@@ -33,7 +33,6 @@
           pkgs.atkinson-hyperlegible-mono
         ];
 
-        # Wir nutzen das Quartz-CLI direkt (statt npm run build, das es nicht gibt)
         buildPhase = ''
           runHook preBuild
           export NO_COLOR=1
@@ -58,7 +57,7 @@
           copy_woff2() {
             local src="$1"
             if [ -d "$src" ]; then
-              find "$src" -type f -name '*.woff2' -print -exec cp -v '{}' "$out/public/static/fonts/" \;
+              find "$src" -type f -name '*.woff2' -exec cp -v '{}' "$out/public/static/fonts/" \;
             fi
           }
 
@@ -68,7 +67,7 @@
           copy_woff2 ${pkgs.source-sans}/share/fonts/woff2
 
           # erzeugung minimaler fonts.css
-          cat > $out/static/fonts/fonts.css <<'EOF'
+          cat > $out/public/static/fonts/fonts.css <<'EOF'
           @font-face {
             font-family: "Source Sans Pro";
             src: url("/static/fonts/SourceSans3-Regular.woff2") format("woff2");
