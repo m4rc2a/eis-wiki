@@ -1,0 +1,3 @@
+[submodule "content"]
+	path = content
+	url = code:marc.zander/eis-notes.git
