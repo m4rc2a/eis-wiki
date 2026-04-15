@@ -1,0 +1,28 @@
+name: Deploy to Codeberg Pages
+
+on:
+  push:
+    branches:
+      - v4
+
+jobs:
+  deploy:
+    runs-on: docker
+    container:
+      image: nixos/nix:latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+      - name: Install git in nix profile
+        run: nix profile install nixpkgs#git --profile /nix/var/nix/profiles/default
+      - name: Build Quartz
+        run: nix build
+        env:
+          QUARTZ_BASE_URL: m4rc2a.codeberg.page/eis-wiki/
+      - name: Deploy to Codeberg Pages
+        uses: actions/pages-action@v1
+        with:
+          directory: result/public

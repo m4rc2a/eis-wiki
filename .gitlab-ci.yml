@@ -1,11 +1,15 @@
-# The Docker image that will be used to build your app
-image: node:22.14.0
+image: nixos/nix:latest
+
+variables:
+  QUARTZ_BASE_URL: m4rc2a.github.io/eis-wiki/
+
 pages:
+  before_script:
+    - nix profile install nixpkgs#git --profile /nix/var/nix/profiles/default
+    - git submodule update --init --recursive
   script:
-    - npm config set fund false
-    - npm config set audit false
-    - npm ci --no-audit --no-fund
-    - npx quartz build
+    - nix build
+    - cp -r result/public public
   artifacts:
     paths: [public]
   rules:

@@ -1,5 +1,21 @@
 {
   "nodes": {
+    "eis-notes": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1773154803,
+        "narHash": "sha256-1iZiznDAxWV+aRcDgxbTI8RiVDCa2l6aCLWsI1pOQ3M=",
+        "ref": "refs/heads/main",
+        "rev": "cb40984b74d405e0f0165e699f474d7c6ff25ef6",
+        "revCount": 127,
+        "type": "git",
+        "url": "ssh://code.siemens.com/marc.zander/eis-notes.git"
+      },
+      "original": {
+        "type": "git",
+        "url": "ssh://code.siemens.com/marc.zander/eis-notes.git"
+      }
+    },
     "flake-utils": {
       "inputs": {
         "systems": "systems"
@@ -36,6 +52,7 @@
     },
     "root": {
       "inputs": {
+        "eis-notes": "eis-notes",
         "flake-utils": "flake-utils",
         "nixpkgs": "nixpkgs"
       }

@@ -4,12 +4,15 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
+    eis-notes.url = "git+ssh://code.siemens.com/marc.zander/eis-notes.git";
+    eis-notes.flake = false;
   };
 
   outputs = {
     self,
     nixpkgs,
     flake-utils,
+    eis-notes,
   }:
     flake-utils.lib.eachDefaultSystem (system: let
       pkgs = import nixpkgs {inherit system;};
@@ -24,7 +27,13 @@
 
         inherit node;
 
-        npmDepsHash = "sha256-79+TyTXBao2PeYyRe7TYpcIUqoRJn5ku66ycNM2FTmU=";
+        npmDepsHash = "sha256-7u+VlIx44B3/ivM9vLMIOn+e4TL4eS6B682vhS+Ikb4=";
+
+        QUARTZ_BASE_URL = "m4rc2a.github.io/eis-wiki/";
+
+        postUnpack = ''
+          cp -r ${eis-notes} source/content
+        '';
 
         buildInputs = [
           pkgs.source-sans
@@ -49,11 +58,8 @@
         '';
 
         postInstall = ''
-          # Quartz output liegt bei dir evtl. unter $out (je nach installPhase).
-          # Wir legen die Fonts dahin, wo Quartz sie als /static/... ausliefert:
           mkdir -p $out/public/static/fonts
 
-          # WOFF2 aus nixpkgs rüberkopieren (Pfad variiert; wir suchen robust)
           copy_woff2() {
             local src="$1"
             if [ -d "$src" ]; then
@@ -66,7 +72,6 @@
           copy_woff2 ${pkgs.jetbrains-mono}/share/fonts/webfonts
           copy_woff2 ${pkgs.source-sans}/share/fonts/woff2
 
-          # erzeugung minimaler fonts.css
           cat > $out/public/static/fonts/fonts.css <<'EOF'
           @font-face {
             font-family: "Source Sans Pro";
@@ -91,7 +96,6 @@
         name = "quartz-serve";
         runtimeInputs = [node];
         text = ''
-          # nutzt den lokalen working tree (content/, quartz.config.ts, etc.)
           exec ${node}/bin/node ./quartz/bootstrap-cli.mjs build --serve "$@"
         '';
       };
@@ -103,7 +107,6 @@
         program = "${serveApp}/bin/quartz-serve";
       };
 
-      # optional: nix run ohne .#serve starten
       apps.default = {
         type = "app";
         program = "${serveApp}/bin/quartz-serve";

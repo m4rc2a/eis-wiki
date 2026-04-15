@@ -1,38 +1,39 @@
 name: Deploy Quartz site to GitHub Pages
- 
+
 on:
   push:
     branches:
       - v4
- 
+
 permissions:
   contents: read
   pages: write
   id-token: write
- 
+
 concurrency:
   group: "pages"
   cancel-in-progress: false
- 
+
 jobs:
   build:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Fetch all history for git info
-      - uses: actions/setup-node@v4
+          submodules: recursive
+          fetch-depth: 0
+      - uses: cachix/install-nix-action@v30
         with:
-          node-version: 22
-      - name: Install Dependencies
-        run: npm ci
+          nix_path: nixpkgs=channel:nixos-unstable
       - name: Build Quartz
-        run: npx quartz build
+        run: nix build
+        env:
+          QUARTZ_BASE_URL: m4rc2a.github.io/eis-wiki/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: public
- 
+          path: result/public
+
   deploy:
     needs: build
     environment:
