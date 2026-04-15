@@ -2,12 +2,12 @@ image: nixos/nix:latest
 
 variables:
   QUARTZ_BASE_URL: m4rc2a.github.io/eis-wiki/
-  GIT_SUBMODULE_STRATEGY: recursive
+  GIT_SUBMODULE_STRATEGY: none
   NIX_CONFIG: "extra-experimental-features = nix-command flakes"
 
 pages:
   script:
-    - nix build --impure --override-input eis-notes path:./content
+    - nix build --impure --override-input eis-notes "git+https://gitlab-ci-token:${CI_JOB_TOKEN}@code.siemens.com/marc.zander/eis-notes.git"
     - cp -r result/public public
   artifacts:
     paths: [public]

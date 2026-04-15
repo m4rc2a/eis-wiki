@@ -30,8 +30,14 @@ npm run check
 # Auto-format code
 npm run format
 
-# Run tests
+# Run all tests
 npm test
+
+# Run a single test file
+npx tsx --test quartz/util/path.test.ts
+
+# Profile build performance
+npm run profile
 ```
 
 ## Architecture
