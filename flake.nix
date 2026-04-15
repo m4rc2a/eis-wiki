@@ -6,7 +6,7 @@
     flake-utils.url = "github:numtide/flake-utils";
 
     eis-notes = {
-      url = "git+ssh://code.siemens.com/marc.zander/eis-notes.git";
+      url = "git+ssh://code.siemens.com/eis/eis-notes.git";
       flake = false;
     };
   };
