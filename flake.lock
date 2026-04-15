@@ -3,17 +3,17 @@
     "eis-notes": {
       "flake": false,
       "locked": {
-        "lastModified": 1773154803,
-        "narHash": "sha256-1iZiznDAxWV+aRcDgxbTI8RiVDCa2l6aCLWsI1pOQ3M=",
+        "lastModified": 1773154886,
+        "narHash": "sha256-duftYfZ4E72FaHxG6biCNU5SyfP7/ikXTtLTFAlO2j0=",
         "ref": "refs/heads/main",
-        "rev": "cb40984b74d405e0f0165e699f474d7c6ff25ef6",
-        "revCount": 127,
+        "rev": "b68b0661877fd616525c0e5cf1e110a5f9074052",
+        "revCount": 8,
         "type": "git",
-        "url": "ssh://code.siemens.com/marc.zander/eis-notes.git"
+        "url": "ssh://code.siemens.com/eis/eis-notes.git"
       },
       "original": {
         "type": "git",
-        "url": "ssh://code.siemens.com/marc.zander/eis-notes.git"
+        "url": "ssh://code.siemens.com/eis/eis-notes.git"
       }
     },
     "flake-utils": {
