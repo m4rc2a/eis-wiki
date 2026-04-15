@@ -4,8 +4,11 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
-    eis-notes.url = "git+ssh://code.siemens.com/marc.zander/eis-notes.git";
-    eis-notes.flake = false;
+
+    eis-notes = {
+      url = "git+ssh://code.siemens.com/marc.zander/eis-notes.git";
+      flake = false;
+    };
   };
 
   outputs = {
