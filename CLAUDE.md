@@ -44,6 +44,8 @@ Quartz processes content through three stages: **parse** (transformers) → **fi
 
 The `content/` directory is a **separate Git repository** (`marc.zander/eis-notes.git` on `code.siemens.com`). Wiki content edits belong in that submodule, not in this repo. For the Nix build, `eis-notes` is declared as a flake input (`git+ssh://code.siemens.com/...`) and copied into the source tree via `postUnpack`. This is necessary because `git archive` (used by Nix for `src = self`) does not include submodule contents.
 
+In CI, the `eis-notes` input is overridden with `--override-input eis-notes path:./content` so it reads from the checked-out submodule instead of fetching via SSH.
+
 ### Configuration
 
 - **`quartz.config.ts`** — Site config: locale is `de-DE`, fonts are self-hosted (`fontOrigin: "local"`), CDN caching disabled, `baseUrl` reads from `process.env.QUARTZ_BASE_URL` (fallback: `m4rc2a.github.io/eis-wiki/`). Content is authored in Obsidian (ObsidianFlavoredMarkdown transformer enabled).
@@ -77,7 +79,7 @@ All three platforms build via `nix build` and deploy `result/public/`:
 
 ### Nix Build Notes
 
-- `eis-notes` flake input uses `git+ssh://` — requires SSH key with access to `code.siemens.com`. In CI, configure a deploy key or PAT.
+- `eis-notes` flake input uses `git+ssh://` — requires SSH key with access to `code.siemens.com`. In CI, the input is overridden via `--override-input eis-notes path:./content` to read from the submodule checkout instead.
 - Git dates (`CreatedModifiedDate` with `git` priority) are unavailable in the Nix sandbox (no `.git` directory). Falls back to frontmatter/filesystem dates.
 - Fonts are bundled from nixpkgs and a `fonts.css` is generated in `postInstall`.
 

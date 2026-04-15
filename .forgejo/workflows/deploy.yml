@@ -5,6 +5,9 @@ on:
     branches:
       - v4
 
+env:
+  NIX_CONFIG: "extra-experimental-features = nix-command flakes"
+
 jobs:
   deploy:
     runs-on: docker
@@ -16,10 +19,8 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-      - name: Install git in nix profile
-        run: nix profile install nixpkgs#git --profile /nix/var/nix/profiles/default
       - name: Build Quartz
-        run: nix build
+        run: nix build --impure --override-input eis-notes path:./content
         env:
           QUARTZ_BASE_URL: m4rc2a.codeberg.page/eis-wiki/
       - name: Deploy to Codeberg Pages

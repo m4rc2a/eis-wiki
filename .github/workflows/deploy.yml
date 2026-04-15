@@ -26,7 +26,7 @@ jobs:
         with:
           nix_path: nixpkgs=channel:nixos-unstable
       - name: Build Quartz
-        run: nix build
+        run: nix build --impure --override-input eis-notes path:./content
         env:
           QUARTZ_BASE_URL: m4rc2a.github.io/eis-wiki/
       - name: Upload artifact
