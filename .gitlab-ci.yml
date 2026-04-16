@@ -4,6 +4,9 @@ variables:
   QUARTZ_BASE_URL: m4rc2a.github.io/eis-wiki/
   GIT_SUBMODULE_STRATEGY: none
   NIX_CONFIG: "extra-experimental-features = nix-command flakes"
+  http_proxy: $CODE_PROXY
+  https_proxy: $CODE_PROXY
+  no_proxy: $CODE_NO_PROXY,$CI_REGISTRY,127.0.0.1,captain.rtf.siemens.net,.code.siemens.io,code.siemens.io
 
 pages:
   script:
