@@ -20,9 +20,7 @@ jobs:
           submodules: recursive
           fetch-depth: 0
       - name: Build Quartz
-        run: nix build --impure --override-input eis-notes path:./content
-        env:
-          QUARTZ_BASE_URL: m4rc2a.codeberg.page/eis-wiki/
+        run: nix build .#quartz-codeberg --override-input eis-notes path:./content
       - name: Deploy to Codeberg Pages
         uses: actions/pages-action@v1
         with:
