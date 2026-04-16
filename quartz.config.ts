@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "de-DE",
-    baseUrl: process.env.QUARTZ_BASE_URL || "m4rc2a.github.io/eis-wiki/",
+    baseUrl: "__QUARTZ_BASE_URL__",
     ignorePatterns: ["private", "templates", "textgenerator", ".obsidian"],
     defaultDateType: "modified",
     theme: {
