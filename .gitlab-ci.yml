@@ -7,13 +7,9 @@ variables:
   https_proxy: $CODE_PROXY
   no_proxy: $CODE_NO_PROXY,$CI_REGISTRY,127.0.0.1,captain.rtf.siemens.net,.code.siemens.io,code.siemens.io
 
-default:
-  before_script:
-    - git config --global url."${CI_SERVER_PROTOCOL}://gitlab-ci-token:${CI_JOB_TOKEN}@${CI_SERVER_HOST}:${CI_SERVER_PORT}".insteadOf "${CI_SERVER_URL}"
-
 pages:
   script:
-    - nix build .#quartz-gitlab
+    - nix build .#quartz-gitlab --override-input eis-notes "git+https://gitlab-ci-token:${CI_JOB_TOKEN}@code.siemens.com/eis/eis-notes.git"
     - cp -r result/public public
   artifacts:
     paths: [public]
